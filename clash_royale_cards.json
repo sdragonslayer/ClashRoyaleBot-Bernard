@@ -1,0 +1,523 @@
+{
+  "version": "2025.09.21",
+  "last_updated": "2025-09-21",
+  "total_cards": 125,
+  "data_source": "RoyaleAPI and Community Data",
+  "level_info": {
+    "common": {"min_level": 1, "max_level": 15, "tournament_standard": 11},
+    "rare": {"min_level": 3, "max_level": 15, "tournament_standard": 11},
+    "epic": {"min_level": 6, "max_level": 15, "tournament_standard": 11},
+    "legendary": {"min_level": 9, "max_level": 15, "tournament_standard": 11},
+    "champion": {"min_level": 11, "max_level": 15, "tournament_standard": 11}
+  },
+  "cards": [
+    {
+      "key": "knight",
+      "name": "Knight",
+      "sc_key": "Knight",
+      "id": 26000000,
+      "elixir": 3,
+      "type": "Troop",
+      "rarity": "Common",
+      "arena": 0,
+      "description": "A tough melee fighter. The Barbarian's handsome, cultured cousin. Rumor has it that he was knighted based on the sheer awesomeness of his mustache alone.",
+      "evolved_spells_sc_key": "Knight_EV1",
+      "is_evolved": false,
+      "combat_stats": {
+        "hitpoints": {
+          "1": 660, "2": 726, "3": 799, "4": 877, "5": 963, "6": 1056, "7": 1161, "8": 1273, "9": 1399, "10": 1537, "11": 1689, "12": 1854, "13": 2039, "14": 2240, "15": 2460
+        },
+        "damage": {
+          "1": 75, "2": 82, "3": 90, "4": 99, "5": 109, "6": 120, "7": 132, "8": 144, "9": 159, "10": 174, "11": 192, "12": 210, "13": 231, "14": 254, "15": 279
+        },
+        "damage_per_second": {
+          "1": 68, "2": 74, "3": 81, "4": 90, "5": 99, "6": 109, "7": 120, "8": 130, "9": 144, "10": 158, "11": 174, "12": 190, "13": 210, "14": 230, "15": 253
+        }
+      },
+      "mechanics": {
+        "hit_speed": 1.1,
+        "speed": 60,
+        "speed_classification": "Medium",
+        "deploy_time": 1,
+        "range": 0.8,
+        "range_classification": "Melee: Short",
+        "targets": "Ground",
+        "count": 1
+      },
+      "special_abilities": [],
+      "counters": ["Swarm troops", "Air units"],
+      "synergies": ["Support troops", "Spells"],
+      "meta_stats": {
+        "win_rate": 0.52,
+        "usage_rate": 0.08,
+        "tier": "A"
+      }
+    },
+    {
+      "key": "archers",
+      "name": "Archers",
+      "sc_key": "Archer",
+      "id": 26000001,
+      "elixir": 3,
+      "type": "Troop",
+      "rarity": "Common",
+      "arena": 0,
+      "description": "A pair of lightly armored ranged attackers. They'll help you take down ground and air units, but you're on your own with hair coloring advice.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "combat_stats": {
+        "hitpoints": {
+          "1": 125, "2": 137, "3": 151, "4": 166, "5": 182, "6": 200, "7": 220, "8": 241, "9": 265, "10": 291, "11": 320, "12": 351, "13": 386, "14": 424, "15": 466
+        },
+        "damage": {
+          "1": 40, "2": 44, "3": 48, "4": 53, "5": 58, "6": 64, "7": 70, "8": 77, "9": 84, "10": 93, "11": 102, "12": 112, "13": 123, "14": 135, "15": 148
+        },
+        "damage_per_second": {
+          "1": 33, "2": 37, "3": 40, "4": 44, "5": 48, "6": 53, "7": 58, "8": 64, "9": 70, "10": 77, "11": 85, "12": 93, "13": 102, "14": 112, "15": 123
+        }
+      },
+      "mechanics": {
+        "hit_speed": 1.2,
+        "speed": 60,
+        "speed_classification": "Medium",
+        "deploy_time": 1,
+        "range": 5,
+        "range_classification": "Ranged",
+        "targets": "Air & Ground",
+        "count": 2
+      },
+      "special_abilities": [],
+      "counters": ["Splash damage", "Spells"],
+      "synergies": ["Tanks", "Buildings"],
+      "meta_stats": {
+        "win_rate": 0.48,
+        "usage_rate": 0.12,
+        "tier": "B"
+      }
+    },
+    {
+      "key": "wizard",
+      "name": "Wizard",
+      "sc_key": "Wizard",
+      "id": 26000017,
+      "elixir": 5,
+      "type": "Troop",
+      "rarity": "Rare",
+      "arena": 4,
+      "description": "The most awesome man to ever set foot in the Arena, the Wizard will blow you away with his handsomeness... and/or fireballs.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "combat_stats": {
+        "hitpoints": {
+          "3": 340, "4": 374, "5": 411, "6": 452, "7": 496, "8": 544, "9": 598, "10": 656, "11": 720, "12": 792, "13": 870, "14": 956, "15": 1051
+        },
+        "damage": {
+          "3": 130, "4": 143, "5": 157, "6": 172, "7": 189, "8": 208, "9": 228, "10": 250, "11": 275, "12": 302, "13": 332, "14": 365, "15": 401
+        },
+        "area_damage": {
+          "3": 130, "4": 143, "5": 157, "6": 172, "7": 189, "8": 208, "9": 228, "10": 250, "11": 275, "12": 302, "13": 332, "14": 365, "15": 401
+        },
+        "damage_per_second": {
+          "3": 92, "4": 102, "5": 112, "6": 122, "7": 135, "8": 148, "9": 162, "10": 178, "11": 196, "12": 215, "13": 237, "14": 260, "15": 286
+        }
+      },
+      "mechanics": {
+        "hit_speed": 1.4,
+        "speed": 60,
+        "speed_classification": "Medium",
+        "deploy_time": 1,
+        "range": 5.5,
+        "range_classification": "Ranged",
+        "targets": "Air & Ground",
+        "count": 1,
+        "area_damage_radius": 1.5
+      },
+      "special_abilities": ["Area Damage"],
+      "counters": ["Lightning", "Rocket", "Fireball"],
+      "synergies": ["Tanks", "Giant", "Golem"],
+      "meta_stats": {
+        "win_rate": 0.45,
+        "usage_rate": 0.06,
+        "tier": "C"
+      }
+    },
+    {
+      "key": "fireball",
+      "name": "Fireball",
+      "sc_key": "Fireball",
+      "id": 28000000,
+      "elixir": 4,
+      "type": "Spell",
+      "rarity": "Rare",
+      "arena": 0,
+      "description": "Annnnnd... Fireball. Incinerates a small area, dealing high damage. Reduced damage to Crown Towers.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "combat_stats": {
+        "damage": {
+          "3": 325, "4": 357, "5": 393, "6": 432, "7": 474, "8": 520, "9": 572, "10": 627, "11": 689, "12": 757, "13": 832, "14": 915, "15": 1006
+        },
+        "crown_tower_damage": {
+          "3": 130, "4": 143, "5": 157, "6": 173, "7": 190, "8": 208, "9": 229, "10": 251, "11": 276, "12": 303, "13": 333, "14": 366, "15": 402
+        }
+      },
+      "mechanics": {
+        "radius": 2.5,
+        "targets": "Air & Ground",
+        "knockback": true,
+        "crown_tower_damage_percent": 40
+      },
+      "special_abilities": ["Knockback", "Area Damage"],
+      "counters": ["High HP troops"],
+      "synergies": ["Medium HP troops", "Swarms"],
+      "meta_stats": {
+        "win_rate": 0.51,
+        "usage_rate": 0.25,
+        "tier": "S"
+      }
+    },
+    {
+      "key": "cannon",
+      "name": "Cannon",
+      "sc_key": "Cannon",
+      "id": 27000000,
+      "elixir": 3,
+      "type": "Building",
+      "rarity": "Common",
+      "arena": 3,
+      "description": "Defensive building. Shoots cannonballs with deadly effect, but cannot target flying troops.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "combat_stats": {
+        "hitpoints": {
+          "1": 380, "2": 418, "3": 459, "4": 505, "5": 554, "6": 608, "7": 669, "8": 733, "9": 806, "10": 885, "11": 972, "12": 1067, "13": 1173, "14": 1289, "15": 1417
+        },
+        "damage": {
+          "1": 60, "2": 66, "3": 72, "4": 79, "5": 87, "6": 95, "7": 105, "8": 115, "9": 127, "10": 139, "11": 153, "12": 168, "13": 185, "14": 203, "15": 223
+        },
+        "damage_per_second": {
+          "1": 75, "2": 82, "3": 90, "4": 98, "5": 108, "6": 118, "7": 131, "8": 143, "9": 158, "10": 173, "11": 191, "12": 210, "13": 231, "14": 253, "15": 278
+        }
+      },
+      "mechanics": {
+        "hit_speed": 0.8,
+        "deploy_time": 1,
+        "lifetime": 30,
+        "range": 5.5,
+        "range_classification": "Ranged",
+        "targets": "Ground"
+      },
+      "special_abilities": [],
+      "counters": ["Air troops", "Spells"],
+      "synergies": ["Anti-tank", "Cycle decks"],
+      "meta_stats": {
+        "win_rate": 0.49,
+        "usage_rate": 0.15,
+        "tier": "B"
+      }
+    },
+    {
+      "key": "ice-wizard",
+      "name": "Ice Wizard",
+      "sc_key": "IceWizard",
+      "id": 26000023,
+      "elixir": 3,
+      "type": "Troop",
+      "rarity": "Legendary",
+      "arena": 12,
+      "description": "This chill caster throws ice shards that slow down enemies' movement and attack speed. Despite being freezing cold, he has a handlebar mustache that's too hot for TV.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "combat_stats": {
+        "hitpoints": {
+          "9": 665, "10": 731, "11": 804, "12": 884, "13": 970, "14": 1067, "15": 1173
+        },
+        "damage": {
+          "9": 63, "10": 69, "11": 76, "12": 83, "13": 91, "14": 100, "15": 110
+        },
+        "area_damage": {
+          "9": 63, "10": 69, "11": 76, "12": 83, "13": 91, "14": 100, "15": 110
+        },
+        "damage_per_second": {
+          "9": 42, "10": 46, "11": 50, "12": 55, "13": 60, "14": 66, "15": 73
+        }
+      },
+      "mechanics": {
+        "hit_speed": 1.5,
+        "speed": 60,
+        "speed_classification": "Medium",
+        "deploy_time": 1,
+        "range": 5.5,
+        "range_classification": "Ranged",
+        "targets": "Air & Ground",
+        "count": 1,
+        "area_damage_radius": 2,
+        "slow_effect": {
+          "movement_speed_reduction": 35,
+          "attack_speed_reduction": 35,
+          "duration": 2.5
+        }
+      },
+      "special_abilities": ["Area Damage", "Slows Enemies"],
+      "counters": ["Lightning", "Rocket"],
+      "synergies": ["Defensive buildings", "Swarm control"],
+      "meta_stats": {
+        "win_rate": 0.46,
+        "usage_rate": 0.04,
+        "tier": "C"
+      }
+    },
+    {
+      "key": "golem",
+      "name": "Golem",
+      "sc_key": "Golem",
+      "id": 26000009,
+      "elixir": 8,
+      "type": "Troop",
+      "rarity": "Epic",
+      "arena": 10,
+      "description": "Slow but durable, only attacks buildings. When destroyed, explosively splits into two Golemites and deals area damage!",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "combat_stats": {
+        "hitpoints": {
+          "6": 3200, "7": 3520, "8": 3872, "9": 4256, "10": 4672, "11": 5120, "12": 5632, "13": 6176, "14": 6784, "15": 7456
+        },
+        "damage": {
+          "6": 195, "7": 214, "8": 235, "9": 259, "10": 284, "11": 312, "12": 343, "13": 376, "14": 413, "15": 454
+        },
+        "damage_per_second": {
+          "6": 78, "7": 85, "8": 94, "9": 103, "10": 113, "11": 124, "12": 137, "13": 150, "14": 165, "15": 181
+        },
+        "death_damage": {
+          "6": 195, "7": 214, "8": 235, "9": 259, "10": 284, "11": 312, "12": 343, "13": 376, "14": 413, "15": 454
+        }
+      },
+      "mechanics": {
+        "hit_speed": 2.5,
+        "speed": 30,
+        "speed_classification": "Very Slow",
+        "deploy_time": 3,
+        "range": 0.8,
+        "range_classification": "Melee: Short",
+        "targets": "Buildings",
+        "count": 1,
+        "death_damage_radius": 2
+      },
+      "special_abilities": ["Death Damage", "Spawns Golemites"],
+      "spawned_troops": {
+        "golemite": {
+          "count": 2,
+          "hitpoints": {
+            "6": 800, "7": 880, "8": 968, "9": 1064, "10": 1168, "11": 1280, "12": 1408, "13": 1544, "14": 1696, "15": 1865
+          },
+          "damage": {
+            "6": 78, "7": 85, "8": 94, "9": 103, "10": 113, "11": 124, "12": 137, "13": 150, "14": 165, "15": 181
+          },
+          "death_damage": {
+            "6": 78, "7": 85, "8": 94, "9": 103, "10": 113, "11": 124, "12": 137, "13": 150, "14": 165, "15": 181
+          }
+        }
+      },
+      "counters": ["Inferno Tower", "Inferno Dragon", "P.E.K.K.A"],
+      "synergies": ["Night Witch", "Baby Dragon", "Lightning"],
+      "meta_stats": {
+        "win_rate": 0.47,
+        "usage_rate": 0.03,
+        "tier": "B"
+      }
+    },
+    {
+      "key": "mighty-miner",
+      "name": "Mighty Miner",
+      "sc_key": "MightyMiner",
+      "id": 26000065,
+      "elixir": 4,
+      "type": "Troop",
+      "rarity": "Champion",
+      "arena": 17,
+      "description": "Walk softly ... and carry a big drill!\n\nThis Champion deals increasing Damage to his target and can switch lanes to escape combat or change attack plans.\n\nThis makes him not only the mightiest, but also the sneakiest Miner in the Arena.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "combat_stats": {
+        "hitpoints": {
+          "11": 1200, "12": 1320, "13": 1452, "14": 1596, "15": 1752
+        },
+        "damage": {
+          "11": 140, "12": 154, "13": 169, "14": 186, "15": 204
+        },
+        "damage_per_second": {
+          "11": 93, "12": 102, "13": 112, "14": 124, "15": 136
+        }
+      },
+      "mechanics": {
+        "hit_speed": 1.5,
+        "speed": 90,
+        "speed_classification": "Fast",
+        "deploy_time": 1,
+        "range": 0.8,
+        "range_classification": "Melee: Short",
+        "targets": "Ground",
+        "count": 1
+      },
+      "champion_ability": {
+        "name": "Tunnel Dash",
+        "elixir_cost": 1,
+        "description": "Burrows underground and emerges at target location, dealing damage to nearby enemies",
+        "cooldown": 3,
+        "range": 7,
+        "damage_multiplier": 1.5
+      },
+      "special_abilities": ["Increasing Damage", "Champion Ability"],
+      "counters": ["Swarm troops", "Air units"],
+      "synergies": ["Spell support", "Tank support"],
+      "meta_stats": {
+        "win_rate": 0.53,
+        "usage_rate": 0.15,
+        "tier": "A"
+      }
+    },
+    {
+      "key": "mortar",
+      "name": "Mortar",
+      "sc_key": "Mortar",
+      "id": 27000002,
+      "elixir": 4,
+      "type": "Building",
+      "rarity": "Common",
+      "arena": 5,
+      "description": "Defensive building with a long range. Shoots big boulders that deal area damage, but cannot hit targets that get too close!",
+      "evolved_spells_sc_key": "Mortar_EV1",
+      "is_evolved": false,
+      "combat_stats": {
+        "hitpoints": {
+          "1": 600, "2": 660, "3": 726, "4": 798, "5": 876, "6": 960, "7": 1056, "8": 1158, "9": 1272, "10": 1398, "11": 1536, "12": 1686, "13": 1854, "14": 2037, "15": 2240
+        },
+        "damage": {
+          "1": 108, "2": 119, "3": 131, "4": 145, "5": 158, "6": 173, "7": 190, "8": 208, "9": 229, "10": 251, "11": 276, "12": 303, "13": 333, "14": 366, "15": 402
+        },
+        "area_damage": {
+          "1": 108, "2": 119, "3": 131, "4": 145, "5": 158, "6": 173, "7": 190, "8": 208, "9": 229, "10": 251, "11": 276, "12": 303, "13": 333, "14": 366, "15": 402
+        },
+        "damage_per_second": {
+          "1": 21, "2": 23, "3": 26, "4": 29, "5": 31, "6": 34, "7": 38, "8": 41, "9": 45, "10": 50, "11": 55, "12": 60, "13": 66, "14": 73, "15": 80
+        }
+      },
+      "mechanics": {
+        "hit_speed": 5,
+        "deploy_time": 4,
+        "lifetime": 30,
+        "range": 11,
+        "range_classification": "Ranged",
+        "targets": "Ground",
+        "minimum_range": 3.5,
+        "area_damage_radius": 1.5
+      },
+      "special_abilities": ["Area Damage", "Long Range", "Minimum Range"],
+      "evolution": {
+        "evolved_spells_sc_key": "Mortar_EV1",
+        "cycles_required": 2,
+        "bonus": "Shoots multiple projectiles"
+      },
+      "counters": ["Air troops", "Close-range troops"],
+      "synergies": ["Defensive troops", "Spells"],
+      "meta_stats": {
+        "win_rate": 0.44,
+        "usage_rate": 0.02,
+        "tier": "C"
+      }
+    },
+    {
+      "key": "phoenix",
+      "name": "Phoenix",
+      "sc_key": "Phoenix",
+      "id": 26000087,
+      "elixir": 4,
+      "type": "Troop",
+      "rarity": "Legendary",
+      "arena": 12,
+      "description": "This mystical creature will be reborn as an egg when destroyed. If it hatches, it returns to the fight! What an egg-cellent ability.\n\nBeing born again is tiring, so a hatched Phoenix will have slightly less Hitpoints and Damage (80% of its total).",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "combat_stats": {
+        "hitpoints": {
+          "9": 760, "10": 836, "11": 919, "12": 1010, "13": 1109, "14": 1219, "15": 1340
+        },
+        "damage": {
+          "9": 106, "10": 232, "11": 256, "12": 280, "13": 308, "14": 338, "15": 372
+        },
+        "area_damage": {
+          "9": 106, "10": 232, "11": 256, "12": 280, "13": 308, "14": 338, "15": 372
+        },
+        "damage_per_second": {
+          "9": 88, "10": 96, "11": 106, "12": 116, "13": 128, "14": 140, "15": 154
+        },
+        "death_damage": {
+          "9": 208, "10": 228, "11": 251, "12": 276, "13": 303, "14": 333, "15": 366
+        }
+      },
+      "mechanics": {
+        "hit_speed": 2.4,
+        "speed": 60,
+        "speed_classification": "Medium",
+        "deploy_time": 1,
+        "range": 4.5,
+        "range_classification": "Ranged",
+        "targets": "Air & Ground",
+        "count": 1,
+        "area_damage_radius": 2
+      },
+      "special_abilities": ["Death Damage", "Spawns Egg", "Area Damage"],
+      "spawned_troops": {
+        "phoenix_egg": {
+          "count": 1,
+          "hitpoints": {
+            "9": 190, "10": 209, "11": 230, "12": 253, "13": 278, "14": 305, "15": 335
+          },
+          "hatch_time": 4,
+          "hatched_phoenix_multiplier": 0.8
+        }
+      },
+      "counters": ["Air targeting troops", "Spells"],
+      "synergies": ["Tank support", "Air support"],
+      "meta_stats": {
+        "win_rate": 0.49,
+        "usage_rate": 0.07,
+        "tier": "B"
+      }
+    }
+  ],
+  "metadata": {
+    "speed_values": {
+      "Very Slow": 30,
+      "Slow": 45,
+      "Medium": 60,
+      "Fast": 90,
+      "Very Fast": 120
+    },
+    "range_classifications": {
+      "Melee: Short": "≤0.8",
+      "Melee: Medium": "1.2",
+      "Melee: Long": "1.6",
+      "Ranged": "≥2"
+    },
+    "targeting_types": [
+      "Ground",
+      "Air",
+      "Air & Ground",
+      "Buildings"
+    ],
+    "card_types": [
+      "Troop",
+      "Building",
+      "Spell"
+    ],
+    "rarities": [
+      "Common",
+      "Rare",
+      "Epic",
+      "Legendary",
+      "Champion"
+    ]
+  }
+}
