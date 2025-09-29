@@ -1,0 +1,3371 @@
+{
+    "troops": [
+        {
+            "sc_key": "Knight",
+            "id": 26000001,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 0,
+            "description": "A tough melee fighter. The Barbarian's handsome, cultured cousin. Rumor has it that he was knighted based on the sheer awesomeness of his mustache alone.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1240,
+                    "12": 1364,
+                    "13": 1500,
+                    "14": 1649,
+                    "15": 1814
+                },
+                "damage": {
+                    "11": 167,
+                    "12": 184,
+                    "13": 202,
+                    "14": 222,
+                    "15": 244
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.2,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [],
+            "counters": [
+                "Swarm troops",
+                "Air units",
+                "High DPS troops"
+            ],
+            "synergies": [
+                "Splash damage troops",
+                "Support troops",
+                "Cycle decks"
+            ]
+        },
+        {
+            "sc_key": "Archers",
+            "id": 26000002,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 0,
+            "description": "A pair of unarmored ranged attackers. They'll help you take down ground and air units, but you're on your own with hair advice.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 252,
+                    "12": 277,
+                    "13": 305,
+                    "14": 335,
+                    "15": 368
+                },
+                "damage": {
+                    "11": 118,
+                    "12": 130,
+                    "13": 143,
+                    "14": 157,
+                    "15": 173
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.2,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 5.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 2
+            },
+            "special_abilities": [],
+            "counters": [
+                "Splash damage",
+                "Spells",
+                "Tanks"
+            ],
+            "synergies": [
+                "Tanks",
+                "Building targeting troops",
+                "Cycle decks"
+            ]
+        },
+        {
+            "sc_key": "Goblins",
+            "id": 26000003,
+            "elixir": 2,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 1,
+            "description": "Three fast, unarmored melee attackers. Small, fast, green and mean!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 169,
+                    "12": 186,
+                    "13": 204,
+                    "14": 224,
+                    "15": 247
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.1,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 3
+            },
+            "special_abilities": [],
+            "counters": [
+                "Splash damage",
+                "Spells",
+                "Area damage troops"
+            ],
+            "synergies": [
+                "Distraction",
+                "Cycle decks",
+                "Bait decks"
+            ]
+        },
+        {
+            "sc_key": "GiantSkeleton",
+            "id": 26000004,
+            "elixir": 6,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 2,
+            "description": "A lumbering giant that explodes when destroyed, dealing high damage to nearby enemies. When you get tired of being called bone-head all the time, this is the way to go!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 2662,
+                    "12": 2928,
+                    "13": 3221,
+                    "14": 3543,
+                    "15": 3897
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                },
+                "death_damage": {
+                    "11": 595,
+                    "12": 655,
+                    "13": 720,
+                    "14": 792,
+                    "15": 871
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 30,
+                "speed_classification": "Very Slow",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Death Damage"
+            ],
+            "counters": [
+                "Air units",
+                "Distractions",
+                "High DPS troops"
+            ],
+            "synergies": [
+                "Clone",
+                "Rage",
+                "Support troops"
+            ]
+        },
+        {
+            "sc_key": "Pekka",
+            "id": 26000005,
+            "elixir": 7,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 4,
+            "description": "A heavily armored, slow melee fighter. Swings from the hip but packs a huge punch.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 2982,
+                    "12": 3280,
+                    "13": 3608,
+                    "14": 3968,
+                    "15": 4365
+                },
+                "damage": {
+                    "11": 678,
+                    "12": 746,
+                    "13": 820,
+                    "14": 902,
+                    "15": 992
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.8,
+                "speed": 45,
+                "speed_classification": "Slow",
+                "deploy_time": 3,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [],
+            "counters": [
+                "Swarm troops",
+                "Air units",
+                "Distractions"
+            ],
+            "synergies": [
+                "Support troops",
+                "Splash damage",
+                "Tanks"
+            ]
+        },
+        {
+            "sc_key": "MiniPekka",
+            "id": 26000006,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 2,
+            "description": "The arena is a certified butterfly sanctuary. No, wait. It's a Pancake Demolition Factory!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1129,
+                    "12": 1242,
+                    "13": 1365,
+                    "14": 1501,
+                    "15": 1651
+                },
+                "damage": {
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.8,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [],
+            "counters": [
+                "Swarm troops",
+                "Air units",
+                "Distractions"
+            ],
+            "synergies": [
+                "Support troops",
+                "Counter push",
+                "Bridge spam"
+            ]
+        },
+        {
+            "sc_key": "Prince",
+            "id": 26000007,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 0,
+            "description": "Don't let the little pony fool you. Once the Prince gets a running start, you WILL be trampled. Deals double damage once he gets charging.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1615,
+                    "12": 1777,
+                    "13": 1955,
+                    "14": 2150,
+                    "15": 2365
+                },
+                "damage": {
+                    "11": 307,
+                    "12": 338,
+                    "13": 371,
+                    "14": 408,
+                    "15": 449
+                },
+                "charge_damage": {
+                    "11": 614,
+                    "12": 676,
+                    "13": 742,
+                    "14": 816,
+                    "15": 898
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 1.6,
+                "range_classification": "Melee: Long",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Charge Attack"
+            ],
+            "counters": [
+                "Swarm troops",
+                "Air units",
+                "Distractions"
+            ],
+            "synergies": [
+                "Support troops",
+                "Dark Prince",
+                "Bridge spam"
+            ]
+        },
+        {
+            "sc_key": "Wizard",
+            "id": 26000008,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 5,
+            "description": "The most awesome man to ever set foot in the arena, the Wizard will blow you away with his handsomeness... and/or fireballs.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
+                },
+                "damage": {
+                    "11": 307,
+                    "12": 338,
+                    "13": 371,
+                    "14": 408,
+                    "15": 449
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.7,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 5.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage"
+            ],
+            "counters": [
+                "Lightning",
+                "Rocket",
+                "High DPS troops"
+            ],
+            "synergies": [
+                "Tanks",
+                "Support role",
+                "Splash damage"
+            ]
+        },
+        {
+            "sc_key": "Dragon",
+            "id": 26000009,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 2,
+            "description": "Flying troop that deals area damage. Baby Dragon isn't so cute when he's barbecuing your whole army.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1129,
+                    "12": 1242,
+                    "13": 1365,
+                    "14": 1501,
+                    "15": 1651
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.8,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 3.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Flying",
+                "Area Damage"
+            ],
+            "counters": [
+                "Air targeting troops",
+                "High DPS troops",
+                "Spells"
+            ],
+            "synergies": [
+                "Tanks",
+                "Support role",
+                "Anti-swarm"
+            ]
+        },
+        {
+            "sc_key": "Musketeer",
+            "id": 26000010,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 3,
+            "description": "Don't be fooled by her delicately coiffed hair, the Musketeer is a mean shot with her trusty boomstick.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
+                },
+                "damage": {
+                    "11": 168,
+                    "12": 185,
+                    "13": 203,
+                    "14": 223,
+                    "15": 246
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.1,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 6,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [],
+            "counters": [
+                "Lightning",
+                "Fireball",
+                "High DPS troops"
+            ],
+            "synergies": [
+                "Tanks",
+                "Hog Rider",
+                "Three Musketeers"
+            ]
+        },
+        {
+            "sc_key": "GoldenKnight",
+            "id": 26000074,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Champion",
+            "arena": 16,
+            "description": "A warrior with luxurious hair and outstanding flexibility. Demonstrates his aerobics skills on demand.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1200,
+                    "12": 1320,
+                    "13": 1452,
+                    "14": 1596,
+                    "15": 1752
+                },
+                "damage": {
+                    "11": 188,
+                    "12": 206,
+                    "13": 227,
+                    "14": 249,
+                    "15": 274
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.1,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "champion_ability": {
+                "name": "Dash Forward",
+                "elixir_cost": 2,
+                "description": "Dashes forward damaging all enemies in path",
+                "cooldown": 3,
+                "range": 5
+            },
+            "special_abilities": [
+                "Champion Ability",
+                "Dash Attack"
+            ],
+            "counters": [
+                "Swarm troops",
+                "Air units"
+            ],
+            "synergies": [
+                "Support troops",
+                "Bridge spam"
+            ]
+        },
+        {
+            "sc_key": "ArcherQueen",
+            "id": 26000075,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Champion",
+            "arena": 16,
+            "description": "The Archer Queen is a strong ranged unit and deals area damage. Her ability calls in a squad of Archers for support.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1044,
+                    "12": 1148,
+                    "13": 1263,
+                    "14": 1389,
+                    "15": 1528
+                },
+                "damage": {
+                    "11": 212,
+                    "12": 233,
+                    "13": 256,
+                    "14": 282,
+                    "15": 310
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.2,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "champion_ability": {
+                "name": "Royal Cloak",
+                "elixir_cost": 1,
+                "description": "Becomes invisible and summons a squad of Archers",
+                "cooldown": 4,
+                "range": 0
+            },
+            "special_abilities": [
+                "Champion Ability",
+                "Invisible",
+                "Spawns Troops"
+            ],
+            "counters": [
+                "Lightning",
+                "Rocket",
+                "High DPS troops"
+            ],
+            "synergies": [
+                "Tanks",
+                "Support troops",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "SkeletonKing",
+            "id": 26000076,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Champion",
+            "arena": 16,
+            "description": "The Skeleton King is a melee fighter that summons an army of Skeletons when defeated. Even the royalty is into fitness these days.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1812,
+                    "12": 1993,
+                    "13": 2192,
+                    "14": 2411,
+                    "15": 2652
+                },
+                "damage": {
+                    "11": 201,
+                    "12": 221,
+                    "13": 243,
+                    "14": 267,
+                    "15": 294
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.4,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "champion_ability": {
+                "name": "Soul Storm",
+                "elixir_cost": 2,
+                "description": "Summons an army of Skeletons around him",
+                "cooldown": 4,
+                "range": 0
+            },
+            "special_abilities": [
+                "Champion Ability",
+                "Death Spawn",
+                "Spawns Troops"
+            ],
+            "counters": [
+                "Air units",
+                "Splash damage",
+                "High DPS troops"
+            ],
+            "synergies": [
+                "Support troops",
+                "Graveyard",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "LittlePrince",
+            "id": 26000088,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Champion",
+            "arena": 17,
+            "description": "A pint-sized Champion who rides around on his trusty Guardian! The Guardian can tank damage while the Little Prince shoots from above.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1305,
+                    "12": 1436,
+                    "13": 1580,
+                    "14": 1737,
+                    "15": 1911
+                },
+                "damage": {
+                    "11": 168,
+                    "12": 185,
+                    "13": 203,
+                    "14": 223,
+                    "15": 246
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.1,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 4.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "champion_ability": {
+                "name": "Guardian Leap",
+                "elixir_cost": 1,
+                "description": "The Guardian jumps forward, dealing area damage",
+                "cooldown": 3,
+                "range": 4
+            },
+            "special_abilities": [
+                "Champion Ability",
+                "Transformation",
+                "Jump Attack"
+            ],
+            "counters": [
+                "High DPS troops",
+                "Swarm troops",
+                "Buildings"
+            ],
+            "synergies": [
+                "Support troops",
+                "Cycle decks",
+                "Control"
+            ]
+        },
+        {
+            "sc_key": "Monk",
+            "id": 26000077,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Champion",
+            "arena": 16,
+            "description": "A master of inner peace and the Flying Kick. His ability deflects enemy projectiles!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1380,
+                    "12": 1518,
+                    "13": 1670,
+                    "14": 1837,
+                    "15": 2021
+                },
+                "damage": {
+                    "11": 189,
+                    "12": 208,
+                    "13": 229,
+                    "14": 252,
+                    "15": 277
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.6,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "champion_ability": {
+                "name": "Pensive Protection",
+                "elixir_cost": 1,
+                "description": "Deflects enemy projectiles back at them",
+                "cooldown": 3.5,
+                "range": 0
+            },
+            "special_abilities": [
+                "Champion Ability",
+                "Deflect"
+            ],
+            "counters": [
+                "Swarm troops",
+                "Air units",
+                "Melee troops"
+            ],
+            "synergies": [
+                "Support troops",
+                "Control decks",
+                "Counter push"
+            ]
+        },
+        {
+            "sc_key": "Berserker",
+            "id": 26000095,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 9,
+            "description": "This furious fighter gets angrier the more he's hurt. When his health drops below 50%, his damage and speed increase!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1380,
+                    "12": 1518,
+                    "13": 1670,
+                    "14": 1837,
+                    "15": 2021
+                },
+                "damage": {
+                    "11": 189,
+                    "12": 208,
+                    "13": 229,
+                    "14": 252,
+                    "15": 277
+                },
+                "rage_damage": {
+                    "11": 283,
+                    "12": 312,
+                    "13": 344,
+                    "14": 378,
+                    "15": 416
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.6,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "rage_speed": 90,
+                "rage_speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Ramping Damage",
+                "Ramping Speed"
+            ],
+            "counters": [
+                "Air units",
+                "High DPS troops",
+                "Swarm troops"
+            ],
+            "synergies": [
+                "Support troops",
+                "Tanks",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "SpiritEmpress",
+            "id": 26000096,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 15,
+            "description": "A mystical flying unit that can transform between air and ground forms. She deals area damage and has extended range.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1192,
+                    "12": 1311,
+                    "13": 1442,
+                    "14": 1586,
+                    "15": 1745
+                },
+                "damage": {
+                    "11": 201,
+                    "12": 221,
+                    "13": 243,
+                    "14": 267,
+                    "15": 294
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.4,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 5.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Flying",
+                "Transformation",
+                "Area Damage"
+            ],
+            "counters": [
+                "Air targeting troops",
+                "High DPS troops",
+                "Spells"
+            ],
+            "synergies": [
+                "Support troops",
+                "Control decks",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "HogRider",
+            "id": 26000011,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 4,
+            "description": "Fast melee troop that targets buildings and can jump over the river. He followed the echoing call of 'Hog Riderrrrr' all the way through the arena doors.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1408,
+                    "12": 1549,
+                    "13": 1704,
+                    "14": 1874,
+                    "15": 2061
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 120,
+                "speed_classification": "Very Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Buildings",
+                "count": 1
+            },
+            "special_abilities": [
+                "Building Targeting",
+                "Jump Attack"
+            ],
+            "counters": [
+                "Buildings",
+                "Swarm troops",
+                "Mini tanks"
+            ],
+            "synergies": [
+                "Spells",
+                "Cycle cards",
+                "Support troops"
+            ]
+        },
+        {
+            "sc_key": "Valkyrie",
+            "id": 26000012,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 1,
+            "description": "Tough melee fighter, deals area damage around her. Swinging that battle axe in a circle, she can wipe out a pile of enemies!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1344,
+                    "12": 1478,
+                    "13": 1626,
+                    "14": 1789,
+                    "15": 1968
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage"
+            ],
+            "counters": [
+                "Air units",
+                "High DPS troops",
+                "Buildings"
+            ],
+            "synergies": [
+                "Support troops",
+                "Tanks",
+                "Anti-swarm"
+            ]
+        },
+        {
+            "sc_key": "Giant",
+            "id": 26000013,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 0,
+            "description": "Slow but durable, the Giant loves to soak up damage while your smaller troops attack.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 2982,
+                    "12": 3280,
+                    "13": 3608,
+                    "14": 3968,
+                    "15": 4365
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 45,
+                "speed_classification": "Slow",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Buildings",
+                "count": 1
+            },
+            "special_abilities": [
+                "Building Targeting"
+            ],
+            "counters": [
+                "Inferno Tower",
+                "Inferno Dragon",
+                "Swarm troops"
+            ],
+            "synergies": [
+                "Support troops",
+                "Splash damage",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "Balloon",
+            "id": 26000043,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 2,
+            "description": "A flying unit that targets buildings and deals massive death damage. Even when destroyed, it still packs a punch!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1344,
+                    "12": 1478,
+                    "13": 1626,
+                    "14": 1789,
+                    "15": 1968
+                },
+                "damage": {
+                    "11": 798,
+                    "12": 878,
+                    "13": 965,
+                    "14": 1062,
+                    "15": 1168
+                },
+                "death_damage": {
+                    "11": 399,
+                    "12": 439,
+                    "13": 483,
+                    "14": 531,
+                    "15": 584
+                }
+            },
+            "mechanics": {
+                "hit_speed": 3,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Buildings",
+                "count": 1
+            },
+            "special_abilities": [
+                "Flying",
+                "Building Targeting",
+                "Death Damage"
+            ],
+            "counters": [
+                "Air targeting troops",
+                "Buildings",
+                "Distraction"
+            ],
+            "synergies": [
+                "Freeze",
+                "Rage",
+                "LavaLoon combo"
+            ]
+        },
+        {
+            "sc_key": "BossB andit",
+            "id": 26000097,
+            "elixir": 6,
+            "type": "Troop",
+            "rarity": "Champion",
+            "arena": 18,
+            "description": "The Boss Bandit is a tough Champion who charges at enemies and can steal elixir from opponents.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1944,
+                    "12": 2138,
+                    "13": 2352,
+                    "14": 2587,
+                    "15": 2846
+                },
+                "damage": {
+                    "11": 307,
+                    "12": 338,
+                    "13": 371,
+                    "14": 408,
+                    "15": 449
+                },
+                "charge_damage": {
+                    "11": 614,
+                    "12": 676,
+                    "13": 742,
+                    "14": 816,
+                    "15": 898
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "champion_ability": {
+                "name": "Elixir Steal",
+                "elixir_cost": 2,
+                "description": "Steals elixir from the opponent on next hit",
+                "cooldown": 4,
+                "range": 0
+            },
+            "special_abilities": [
+                "Champion Ability",
+                "Charge Attack",
+                "Elixir Steal"
+            ],
+            "counters": [
+                "Air units",
+                "Swarm troops",
+                "Buildings"
+            ],
+            "synergies": [
+                "Support troops",
+                "Bridge spam",
+                "Elixir advantage"
+            ]
+        },
+        {
+            "sc_key": "Barbarians",
+            "id": 26000044,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 3,
+            "description": "A horde of melee attackers with mean mustaches and even meaner tempers.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 636,
+                    "12": 700,
+                    "13": 770,
+                    "14": 847,
+                    "15": 931
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 4
+            },
+            "special_abilities": [],
+            "counters": [
+                "Splash damage",
+                "Wizard",
+                "Valkyrie"
+            ],
+            "synergies": [
+                "Split push",
+                "Rage",
+                "Support troops"
+            ]
+        },
+        {
+            "sc_key": "Spear Goblins",
+            "id": 26000045,
+            "elixir": 2,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 1,
+            "description": "Three ranged attackers. Throw spears at enemies from a distance. Increased range after August 2025 balance changes.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 169,
+                    "12": 186,
+                    "13": 204,
+                    "14": 224,
+                    "15": 247
+                },
+                "damage": {
+                    "11": 95,
+                    "12": 105,
+                    "13": 115,
+                    "14": 127,
+                    "15": 139
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.3,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 3
+            },
+            "special_abilities": [],
+            "counters": [
+                "Splash damage",
+                "Arrows",
+                "The Log"
+            ],
+            "synergies": [
+                "Bait decks",
+                "Cheap cycle",
+                "Goblin Hut"
+            ]
+        },
+        {
+            "sc_key": "Minions",
+            "id": 26000046,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 4,
+            "description": "Three fast, unarmored flying attackers. Roses are red, Minions are blue, they can fly, and will crush you!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 190,
+                    "12": 209,
+                    "13": 230,
+                    "14": 253,
+                    "15": 278
+                },
+                "damage": {
+                    "11": 105,
+                    "12": 115,
+                    "13": 127,
+                    "14": 140,
+                    "15": 154
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.1,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 2,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 3
+            },
+            "special_abilities": [
+                "Flying"
+            ],
+            "counters": [
+                "Arrows",
+                "Zap",
+                "Princess"
+            ],
+            "synergies": [
+                "Lava Hound",
+                "Anti-air",
+                "Cheap cycle"
+            ]
+        },
+        {
+            "sc_key": "Bomber",
+            "id": 26000047,
+            "elixir": 2,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 2,
+            "description": "Small, lightly protected warrior who throws bombs. Deals area damage that can wipe out a swarm of enemies.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 147,
+                    "12": 162,
+                    "13": 178,
+                    "14": 196,
+                    "15": 215
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.9,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 4.5,
+                "range_classification": "Ranged",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage"
+            ],
+            "counters": [
+                "Air units",
+                "Long range troops",
+                "Spells"
+            ],
+            "synergies": [
+                "Giant",
+                "Protection troops",
+                "Anti-swarm"
+            ]
+        },
+        {
+            "sc_key": "SkeletonArmy",
+            "id": 26000048,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 9,
+            "description": "Fifteen Skeletons form an army. They can quickly surround and destroy high hitpoint enemies.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 67,
+                    "12": 74,
+                    "13": 81,
+                    "14": 89,
+                    "15": 98
+                },
+                "damage": {
+                    "11": 67,
+                    "12": 74,
+                    "13": 81,
+                    "14": 89,
+                    "15": 98
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 15
+            },
+            "special_abilities": [],
+            "counters": [
+                "Splash damage",
+                "Arrows",
+                "The Log"
+            ],
+            "synergies": [
+                "Bait decks",
+                "Tank killers",
+                "Distraction"
+            ]
+        },
+        {
+            "sc_key": "Witch",
+            "id": 26000049,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 0,
+            "description": "Summons Skeletons, shoots destructive skulls from the sky and has glorious flowing hair. When she's destroyed, she damages and slows nearby enemies!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
+                },
+                "damage": {
+                    "11": 78,
+                    "12": 86,
+                    "13": 94,
+                    "14": 103,
+                    "15": 114
+                },
+                "death_damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 0.7,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 5.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "spawner_info": {
+                "troop_spawned": "Skeletons",
+                "spawn_speed": 7.5,
+                "spawn_count": 4,
+                "death_spawn": 4
+            },
+            "special_abilities": [
+                "Spawns Troops",
+                "Death Damage",
+                "Death Spawn"
+            ],
+            "counters": [
+                "Lightning",
+                "Poison",
+                "Fireball"
+            ],
+            "synergies": [
+                "Tanks",
+                "Graveyard",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "Skeletons",
+            "id": 26000050,
+            "elixir": 1,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 2,
+            "description": "Three fast, very weak melee fighters. Excellent at distracting enemy troops and one-cycling your deck.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 67,
+                    "12": 74,
+                    "13": 81,
+                    "14": 89,
+                    "15": 98
+                },
+                "damage": {
+                    "11": 67,
+                    "12": 74,
+                    "13": 81,
+                    "14": 89,
+                    "15": 98
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 3
+            },
+            "special_abilities": [],
+            "counters": [
+                "Splash damage",
+                "Zap",
+                "The Log"
+            ],
+            "synergies": [
+                "Cycle decks",
+                "Distraction",
+                "Cheap defense"
+            ]
+        },
+        {
+            "sc_key": "Golem",
+            "id": 26000051,
+            "elixir": 8,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 6,
+            "description": "Slow but durable, only attacks buildings. When destroyed, explodes and splits into two Golemites and deals area damage!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 4256,
+                    "12": 4682,
+                    "13": 5150,
+                    "14": 5665,
+                    "15": 6232
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                },
+                "death_damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 2.5,
+                "speed": 45,
+                "speed_classification": "Slow",
+                "deploy_time": 3,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Buildings",
+                "count": 1
+            },
+            "spawner_info": {
+                "troop_spawned": "Golemites",
+                "death_spawn": 2
+            },
+            "special_abilities": [
+                "Building Targeting",
+                "Death Damage",
+                "Death Spawn"
+            ],
+            "counters": [
+                "Inferno Tower",
+                "Inferno Dragon",
+                "Swarm troops"
+            ],
+            "synergies": [
+                "Night Witch",
+                "Baby Dragon",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "LavaHound",
+            "id": 26000052,
+            "elixir": 7,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 4,
+            "description": "The Lava Hound is a majestic flying beast that attacks buildings. When destroyed, it splits into many smaller, weaker Lava Pups.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 3054,
+                    "12": 3359,
+                    "13": 3695,
+                    "14": 4065,
+                    "15": 4472
+                },
+                "damage": {
+                    "11": 45,
+                    "12": 50,
+                    "13": 55,
+                    "14": 60,
+                    "15": 66
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.3,
+                "speed": 45,
+                "speed_classification": "Slow",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Buildings",
+                "count": 1
+            },
+            "spawner_info": {
+                "troop_spawned": "Lava Pups",
+                "death_spawn": 6
+            },
+            "special_abilities": [
+                "Flying",
+                "Building Targeting",
+                "Death Spawn"
+            ],
+            "counters": [
+                "Air targeting troops",
+                "Executioner",
+                "Wizard"
+            ],
+            "synergies": [
+                "Balloon",
+                "Minions",
+                "LavaLoon"
+            ]
+        },
+        {
+            "sc_key": "IceWizard",
+            "id": 26000053,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 5,
+            "description": "This chill caster throws ice shards that slow down enemies' movement and attack speed. Despite being freezing cold, he has a warm heart.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 665,
+                    "12": 731,
+                    "13": 804,
+                    "14": 884,
+                    "15": 972
+                },
+                "damage": {
+                    "11": 63,
+                    "12": 69,
+                    "13": 76,
+                    "14": 84,
+                    "15": 92
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 5.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Slow"
+            ],
+            "counters": [
+                "Lightning",
+                "Poison",
+                "High DPS troops"
+            ],
+            "synergies": [
+                "Defensive decks",
+                "Control",
+                "Anti-swarm"
+            ]
+        },
+        {
+            "sc_key": "Princess",
+            "id": 26000054,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 7,
+            "description": "This stunning Princess shoots flaming arrows from long range. If you're feeling warm feelings towards her, it's probably because you're on fire.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 216,
+                    "12": 238,
+                    "13": 261,
+                    "14": 287,
+                    "15": 316
+                },
+                "damage": {
+                    "11": 140,
+                    "12": 154,
+                    "13": 169,
+                    "14": 186,
+                    "15": 205
+                }
+            },
+            "mechanics": {
+                "hit_speed": 3,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 9,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Long Range"
+            ],
+            "counters": [
+                "The Log",
+                "Arrows",
+                "Fireball"
+            ],
+            "synergies": [
+                "Bait decks",
+                "Chip damage",
+                "Long range support"
+            ]
+        },
+        {
+            "sc_key": "DarkPrince",
+            "id": 26000055,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 7,
+            "description": "The Dark Prince deals area damage and lets his astonishingly handsome hair flow freely in the wind. He fits in perfectly with the Prince in friendly battles.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1380,
+                    "12": 1518,
+                    "13": 1670,
+                    "14": 1837,
+                    "15": 2021
+                },
+                "damage": {
+                    "11": 189,
+                    "12": 208,
+                    "13": 229,
+                    "14": 252,
+                    "15": 277
+                },
+                "charge_damage": {
+                    "11": 378,
+                    "12": 416,
+                    "13": 458,
+                    "14": 504,
+                    "15": 554
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.4,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 1.2,
+                "range_classification": "Melee: Medium",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Charge Attack",
+                "Shield"
+            ],
+            "counters": [
+                "Air units",
+                "Swarm troops",
+                "Buildings"
+            ],
+            "synergies": [
+                "Prince",
+                "Support troops",
+                "Double Prince"
+            ]
+        },
+        {
+            "sc_key": "Miner",
+            "id": 26000056,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 6,
+            "description": "The Miner can burrow his way underground and appear anywhere in the Arena. It's not magic, it's a shovel.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1000,
+                    "12": 1100,
+                    "13": 1210,
+                    "14": 1331,
+                    "15": 1464
+                },
+                "damage": {
+                    "11": 160,
+                    "12": 176,
+                    "13": 194,
+                    "14": 213,
+                    "15": 234
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.2,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Deploy Anywhere",
+                "Tower Damage Reduction"
+            ],
+            "counters": [
+                "Swarm troops",
+                "Mini tanks",
+                "Buildings"
+            ],
+            "synergies": [
+                "Poison",
+                "Chip damage",
+                "Control decks"
+            ]
+        },
+        {
+            "sc_key": "Sparky",
+            "id": 26000057,
+            "elixir": 6,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 6,
+            "description": "Sparky slowly charges up, then unloads MASSIVE area damage. Overkill isn't in her vocabulary.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1240,
+                    "12": 1364,
+                    "13": 1500,
+                    "14": 1649,
+                    "15": 1814
+                },
+                "damage": {
+                    "11": 1287,
+                    "12": 1416,
+                    "13": 1558,
+                    "14": 1714,
+                    "15": 1885
+                }
+            },
+            "mechanics": {
+                "hit_speed": 4,
+                "speed": 45,
+                "speed_classification": "Slow",
+                "deploy_time": 1,
+                "range": 4.5,
+                "range_classification": "Ranged",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Reset by Zap"
+            ],
+            "counters": [
+                "Zap",
+                "Electro Wizard",
+                "Rocket"
+            ],
+            "synergies": [
+                "Giant",
+                "Tornado",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "Bowler",
+            "id": 26000058,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 8,
+            "description": "This big blue dude digs the simple things in life - Dark Elixir drinks and throwing rocks. His massive boulders roll through their target, hitting everything behind for reduced damage.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1615,
+                    "12": 1777,
+                    "13": 1955,
+                    "14": 2150,
+                    "15": 2365
+                },
+                "damage": {
+                    "11": 307,
+                    "12": 338,
+                    "13": 371,
+                    "14": 408,
+                    "15": 449
+                }
+            },
+            "mechanics": {
+                "hit_speed": 2.5,
+                "speed": 45,
+                "speed_classification": "Slow",
+                "deploy_time": 1,
+                "range": 5,
+                "range_classification": "Ranged",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Knockback",
+                "Piercing"
+            ],
+            "counters": [
+                "Air units",
+                "High DPS troops",
+                "Inferno Dragon"
+            ],
+            "synergies": [
+                "Graveyard",
+                "Control decks",
+                "Anti-ground"
+            ]
+        },
+        {
+            "sc_key": "Lumberjack",
+            "id": 26000059,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 8,
+            "description": "He chops trees by day and hunts The Log by night. His bottle of Rage spills everywhere when he's defeated.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1044,
+                    "12": 1148,
+                    "13": 1263,
+                    "14": 1389,
+                    "15": 1528
+                },
+                "damage": {
+                    "11": 200,
+                    "12": 220,
+                    "13": 242,
+                    "14": 266,
+                    "15": 293
+                }
+            },
+            "mechanics": {
+                "hit_speed": 0.7,
+                "speed": 120,
+                "speed_classification": "Very Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Death Spawn",
+                "Rage Drop"
+            ],
+            "counters": [
+                "Swarm troops",
+                "Air units",
+                "Buildings"
+            ],
+            "synergies": [
+                "Balloon",
+                "Bridge spam",
+                "Fast attacks"
+            ]
+        },
+        {
+            "sc_key": "InfernoDragon",
+            "id": 26000060,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 4,
+            "description": "Shoots a focused beam that increases in damage over time. Wears a little hat because he's a classy dragon.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 952,
+                    "12": 1047,
+                    "13": 1152,
+                    "14": 1267,
+                    "15": 1394
+                },
+                "damage": {
+                    "11": "42-420",
+                    "12": "46-460",
+                    "13": "51-510",
+                    "14": "56-560",
+                    "15": "61-610"
+                }
+            },
+            "mechanics": {
+                "hit_speed": 0.4,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 3.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Flying",
+                "Ramping Damage",
+                "Reset by Zap"
+            ],
+            "counters": [
+                "Zap",
+                "Bats",
+                "Minions"
+            ],
+            "synergies": [
+                "Baby Dragon",
+                "Anti-tank",
+                "Support"
+            ]
+        },
+        {
+            "sc_key": "IceGolem",
+            "id": 26000061,
+            "elixir": 2,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 8,
+            "description": "He's tough, targets buildings and explodes when destroyed, slowing nearby enemies. Balances out the Elixir Collector in a neat way.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 665,
+                    "12": 731,
+                    "13": 804,
+                    "14": 884,
+                    "15": 972
+                },
+                "damage": {
+                    "11": 63,
+                    "12": 69,
+                    "13": 76,
+                    "14": 84,
+                    "15": 92
+                },
+                "death_damage": {
+                    "11": 63,
+                    "12": 69,
+                    "13": 76,
+                    "14": 84,
+                    "15": 92
+                }
+            },
+            "mechanics": {
+                "hit_speed": 2.5,
+                "speed": 45,
+                "speed_classification": "Slow",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Buildings",
+                "count": 1
+            },
+            "special_abilities": [
+                "Building Targeting",
+                "Death Damage",
+                "Slow"
+            ],
+            "counters": [
+                "Inferno Tower",
+                "Inferno Dragon",
+                "Air units"
+            ],
+            "synergies": [
+                "Hog Rider",
+                "Cycle decks",
+                "Support"
+            ]
+        },
+        {
+            "sc_key": "MegaMinion",
+            "id": 26000062,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 7,
+            "description": "Flying, armored and powerful. What could be its weakness?! Cupcakes.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
+                },
+                "damage": {
+                    "11": 147,
+                    "12": 162,
+                    "13": 178,
+                    "14": 196,
+                    "15": 215
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 2,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Flying"
+            ],
+            "counters": [
+                "Musketeer",
+                "Wizard",
+                "Baby Dragon"
+            ],
+            "synergies": [
+                "Tanks",
+                "Anti-air",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "EliteBarbarians",
+            "id": 26000063,
+            "elixir": 6,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 7,
+            "description": "Spawns two fast, armored Barbarians with fierce mustaches and even fiercer tempers.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 847,
+                    "12": 932,
+                    "13": 1025,
+                    "14": 1128,
+                    "15": 1241
+                },
+                "damage": {
+                    "11": 201,
+                    "12": 221,
+                    "13": 243,
+                    "14": 267,
+                    "15": 294
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 120,
+                "speed_classification": "Very Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 2
+            },
+            "special_abilities": [],
+            "counters": [
+                "Valkyrie",
+                "Bowler",
+                "Pekka"
+            ],
+            "synergies": [
+                "Rage",
+                "Bridge spam",
+                "Support troops"
+            ]
+        },
+        {
+            "sc_key": "Guards",
+            "id": 26000064,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 7,
+            "description": "Three ruthless bone brothers with shields. The shields make them tough, but they're still just skeletons!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 65,
+                    "12": 72,
+                    "13": 79,
+                    "14": 87,
+                    "15": 96
+                },
+                "shield_hitpoints": {
+                    "11": 199,
+                    "12": 219,
+                    "13": 241,
+                    "14": 265,
+                    "15": 292
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.1,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 3
+            },
+            "special_abilities": [
+                "Shield"
+            ],
+            "counters": [
+                "Splash damage",
+                "Poison",
+                "Valkyrie"
+            ],
+            "synergies": [
+                "Graveyard",
+                "Protection",
+                "Tank support"
+            ]
+        },
+        {
+            "sc_key": "FireSpirits",
+            "id": 26000065,
+            "elixir": 1,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 5,
+            "description": "Three Fire Spirits that deal area damage. Even when outnumbered, Fire Spirits pack a punch.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 91,
+                    "12": 100,
+                    "13": 110,
+                    "14": 121,
+                    "15": 133
+                },
+                "damage": {
+                    "11": 169,
+                    "12": 186,
+                    "13": 204,
+                    "14": 224,
+                    "15": 247
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1,
+                "speed": 120,
+                "speed_classification": "Very Fast",
+                "deploy_time": 1,
+                "range": 2,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 3
+            },
+            "special_abilities": [
+                "Suicide",
+                "Area Damage"
+            ],
+            "counters": [
+                "Zap",
+                "Arrows",
+                "Princess"
+            ],
+            "synergies": [
+                "Furnace",
+                "Cycle decks",
+                "Anti-swarm"
+            ]
+        },
+        {
+            "sc_key": "ThreeMusketeers",
+            "id": 26000066,
+            "elixir": 9,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 7,
+            "description": "Trio of powerful, independent markswomen, fighting for justice and honor. Disrespect them at your own peril.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
+                },
+                "damage": {
+                    "11": 168,
+                    "12": 185,
+                    "13": 203,
+                    "14": 223,
+                    "15": 246
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.1,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 6,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 3
+            },
+            "special_abilities": [],
+            "counters": [
+                "Lightning",
+                "Fireball",
+                "Rocket"
+            ],
+            "synergies": [
+                "Split push",
+                "Giant",
+                "Support"
+            ]
+        },
+        {
+            "sc_key": "RoyalGiant",
+            "id": 26000067,
+            "elixir": 6,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 7,
+            "description": "Destroying enemy buildings with his massive cannon is his job; making a raggedy beard look good is his passion.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 2544,
+                    "12": 2798,
+                    "13": 3078,
+                    "14": 3386,
+                    "15": 3725
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.7,
+                "speed": 45,
+                "speed_classification": "Slow",
+                "deploy_time": 1,
+                "range": 6.5,
+                "range_classification": "Ranged",
+                "targets": "Buildings",
+                "count": 1
+            },
+            "special_abilities": [
+                "Building Targeting",
+                "Long Range"
+            ],
+            "counters": [
+                "Inferno Tower",
+                "Inferno Dragon",
+                "Barbarians"
+            ],
+            "synergies": [
+                "Lightning",
+                "Support troops",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "EliteWizard",
+            "id": 26000068,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 5,
+            "description": "The Electro Wizard arrives with a zap! Attacks hit up to two enemies and briefly stuns them.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
+                },
+                "damage": {
+                    "11": 96,
+                    "12": 106,
+                    "13": 116,
+                    "14": 128,
+                    "15": 140
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.7,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1,
+                "spawn_damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "special_abilities": [
+                "Spawn Damage",
+                "Stun",
+                "Chain Attack"
+            ],
+            "counters": [
+                "Lightning",
+                "Fireball",
+                "Rocket"
+            ],
+            "synergies": [
+                "Inferno counters",
+                "Control decks",
+                "Support"
+            ]
+        },
+        {
+            "sc_key": "Bandit",
+            "id": 26000069,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 9,
+            "description": "The Bandit dashes to her target and delivers an extra big hit! While dashing, she can't be touched.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 749,
+                    "12": 824,
+                    "13": 906,
+                    "14": 997,
+                    "15": 1097
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                },
+                "dash_damage": {
+                    "11": 318,
+                    "12": 350,
+                    "13": 385,
+                    "14": 423,
+                    "15": 465
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Charge Attack",
+                "Dash",
+                "Untargetable"
+            ],
+            "counters": [
+                "Swarm troops",
+                "Air units",
+                "Buildings"
+            ],
+            "synergies": [
+                "Bridge spam",
+                "Support troops",
+                "Fast attacks"
+            ]
+        },
+        {
+            "sc_key": "NightWitch",
+            "id": 26000070,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 8,
+            "description": "Summons Bats to do her bidding! When defeated, she uses her last breath to summon a final batch of Bats.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 750,
+                    "12": 825,
+                    "13": 908,
+                    "14": 998,
+                    "15": 1098
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.3,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "spawner_info": {
+                "troop_spawned": "Bats",
+                "spawn_speed": 6,
+                "spawn_count": 2,
+                "death_spawn": 4
+            },
+            "special_abilities": [
+                "Spawns Troops",
+                "Death Spawn"
+            ],
+            "counters": [
+                "Splash damage",
+                "Arrows",
+                "Zap"
+            ],
+            "synergies": [
+                "Golem",
+                "Clone",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "Bats",
+            "id": 26000071,
+            "elixir": 2,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 8,
+            "description": "Four fast, unarmored flying attackers. Roses are red, bats are purple, you defeated me, but don't celebrate early!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 67,
+                    "12": 74,
+                    "13": 81,
+                    "14": 89,
+                    "15": 98
+                },
+                "damage": {
+                    "11": 67,
+                    "12": 74,
+                    "13": 81,
+                    "14": 89,
+                    "15": 98
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.1,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Air & Ground",
+                "count": 4
+            },
+            "special_abilities": [
+                "Flying"
+            ],
+            "counters": [
+                "Zap",
+                "Arrows",
+                "Princess"
+            ],
+            "synergies": [
+                "Night Witch",
+                "Lava Hound",
+                "Anti-air"
+            ]
+        },
+        {
+            "sc_key": "HealSpirit",
+            "id": 26000072,
+            "elixir": 1,
+            "type": "Troop",
+            "rarity": "Rare",
+            "arena": 5,
+            "description": "He's full of life! Heal Spirit will jump at the nearest ally and heal all friendly troops and buildings around his target.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 91,
+                    "12": 100,
+                    "13": 110,
+                    "14": 121,
+                    "15": 133
+                },
+                "heal": {
+                    "11": 176,
+                    "12": 194,
+                    "13": 213,
+                    "14": 234,
+                    "15": 258
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1,
+                "speed": 120,
+                "speed_classification": "Very Fast",
+                "deploy_time": 1,
+                "range": 3.5,
+                "range_classification": "Ranged",
+                "targets": "Friendly",
+                "count": 1
+            },
+            "special_abilities": [
+                "Heal",
+                "Suicide"
+            ],
+            "counters": [
+                "Small damage",
+                "Prediction",
+                "Fast cycling"
+            ],
+            "synergies": [
+                "Three Musketeers",
+                "Tanks",
+                "Support"
+            ]
+        },
+        {
+            "sc_key": "IceSpirit",
+            "id": 26000073,
+            "elixir": 1,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 8,
+            "description": "A chill little dude that freezes enemies. Despite his frigid personality, he's a warm companion.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 91,
+                    "12": 100,
+                    "13": 110,
+                    "14": 121,
+                    "15": 133
+                },
+                "damage": {
+                    "11": 95,
+                    "12": 105,
+                    "13": 115,
+                    "14": 127,
+                    "15": 139
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1,
+                "speed": 120,
+                "speed_classification": "Very Fast",
+                "deploy_time": 1,
+                "range": 2.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Suicide",
+                "Freeze",
+                "Area Damage"
+            ],
+            "counters": [
+                "Zap",
+                "Arrows",
+                "Princess"
+            ],
+            "synergies": [
+                "Hog Rider",
+                "Cycle decks",
+                "Control"
+            ]
+        },
+        {
+            "sc_key": "ElectroSpirit",
+            "id": 26000074,
+            "elixir": 1,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 11,
+            "description": "A spunky little fella that jumps at enemies and gives them a shock! Does not judge. You can equip any hairstyle.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 91,
+                    "12": 100,
+                    "13": 110,
+                    "14": 121,
+                    "15": 133
+                },
+                "damage": {
+                    "11": 95,
+                    "12": 105,
+                    "13": 115,
+                    "14": 127,
+                    "15": 139
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1,
+                "speed": 120,
+                "speed_classification": "Very Fast",
+                "deploy_time": 1,
+                "range": 3.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Suicide",
+                "Stun",
+                "Chain Attack"
+            ],
+            "counters": [
+                "Zap",
+                "Arrows",
+                "Princess"
+            ],
+            "synergies": [
+                "Inferno counters",
+                "Cycle decks",
+                "Reset combos"
+            ]
+        },
+        {
+            "sc_key": "MotherWitch",
+            "id": 26000075,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 12,
+            "description": "Mother Witch creates Cursed Hogs from enemy troops. Don't mess with her, or you'll get hogging mad!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
+                },
+                "damage": {
+                    "11": 190,
+                    "12": 209,
+                    "13": 230,
+                    "14": 253,
+                    "15": 278
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.1,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "spawner_info": {
+                "troop_spawned": "Cursed Hogs",
+                "spawn_condition": "On enemy death"
+            },
+            "special_abilities": [
+                "Transformation",
+                "Spawns Troops"
+            ],
+            "counters": [
+                "Lightning",
+                "Rocket",
+                "High DPS troops"
+            ],
+            "synergies": [
+                "Swarm troops",
+                "Control decks",
+                "Fireball bait"
+            ]
+        },
+        {
+            "sc_key": "ElectroDragon",
+            "id": 26000076,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 8,
+            "description": "Attacks hit up to three units and briefly stuns them. Don't ask him to assist with the sparky.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1129,
+                    "12": 1242,
+                    "13": 1365,
+                    "14": 1501,
+                    "15": 1651
+                },
+                "damage": {
+                    "11": 190,
+                    "12": 209,
+                    "13": 230,
+                    "14": 253,
+                    "15": 278
+                }
+            },
+            "mechanics": {
+                "hit_speed": 2.3,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 3.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Flying",
+                "Chain Attack",
+                "Stun"
+            ],
+            "counters": [
+                "Lightning",
+                "Rocket",
+                "Hunter"
+            ],
+            "synergies": [
+                "Support troops",
+                "Anti-swarm",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "Phoenix",
+            "id": 26000077,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 16,
+            "description": "A majestic flying creature that turns into an egg when defeated. The egg then hatches into a Phoenix once more!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1044,
+                    "12": 1148,
+                    "13": 1263,
+                    "14": 1389,
+                    "15": 1528
+                },
+                "damage": {
+                    "11": 190,
+                    "12": 209,
+                    "13": 230,
+                    "14": 253,
+                    "15": 278
+                },
+                "death_damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.8,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 4,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "spawner_info": {
+                "troop_spawned": "Phoenix Egg",
+                "death_spawn": 1
+            },
+            "special_abilities": [
+                "Flying",
+                "Death Damage",
+                "Death Spawn",
+                "Rebirth"
+            ],
+            "counters": [
+                "Air targeting troops",
+                "Lightning",
+                "Rocket"
+            ],
+            "synergies": [
+                "Clone",
+                "Support troops",
+                "Beatdown"
+            ]
+        },
+        {
+            "sc_key": "MightyMiner",
+            "id": 26000078,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Champion",
+            "arena": 15,
+            "description": "The Mighty Miner burrows underground and emerges to devastate enemies. His drill can really get under your skin!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1380,
+                    "12": 1518,
+                    "13": 1670,
+                    "14": 1837,
+                    "15": 2021
+                },
+                "damage": {
+                    "11": 201,
+                    "12": 221,
+                    "13": 243,
+                    "14": 267,
+                    "15": 294
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.8,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Ground",
+                "count": 1
+            },
+            "champion_ability": {
+                "name": "Explosive Escape",
+                "elixir_cost": 2,
+                "description": "Burrows underground and explodes at target location",
+                "cooldown": 4,
+                "range": 4
+            },
+            "special_abilities": [
+                "Champion Ability",
+                "Deploy Anywhere"
+            ],
+            "counters": [
+                "Swarm troops",
+                "Air units",
+                "Buildings"
+            ],
+            "synergies": [
+                "Support troops",
+                "Control decks",
+                "Chip damage"
+            ]
+        },
+        {
+            "sc_key": "SkeletonDragons",
+            "id": 26000079,
+            "elixir": 4,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 9,
+            "description": "Two flying skeletons that shoot homing projectiles. They're sort of cute, but also sort of creepy.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 318,
+                    "12": 350,
+                    "13": 385,
+                    "14": 423,
+                    "15": 465
+                },
+                "damage": {
+                    "11": 105,
+                    "12": 115,
+                    "13": 127,
+                    "14": 140,
+                    "15": 154
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.5,
+                "speed": 60,
+                "speed_classification": "Medium",
+                "deploy_time": 1,
+                "range": 3.5,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 2
+            },
+            "special_abilities": [
+                "Flying"
+            ],
+            "counters": [
+                "Arrows",
+                "Fireball",
+                "Princess"
+            ],
+            "synergies": [
+                "Lava Hound",
+                "Support",
+                "Anti-air"
+            ]
+        },
+        {
+            "sc_key": "WallBreakers",
+            "id": 26000080,
+            "elixir": 2,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 12,
+            "description": "A pair of lightly armored ranged attackers who deal area damage around their target. They're prepared to make the ultimate sacrifice!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                },
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 3.5,
+                "range_classification": "Ranged",
+                "targets": "Buildings",
+                "count": 2
+            },
+            "special_abilities": [
+                "Building Targeting",
+                "Suicide",
+                "Area Damage"
+            ],
+            "counters": [
+                "Spells",
+                "Splash damage",
+                "Distraction"
+            ],
+            "synergies": [
+                "Miner",
+                "Support troops",
+                "Chip damage"
+            ]
+        },
+        {
+            "sc_key": "Firecracker",
+            "id": 26000081,
+            "elixir": 3,
+            "type": "Troop",
+            "rarity": "Common",
+            "arena": 12,
+            "description": "She shoots a firework that explodes on the first enemy it hits, dealing area damage. The firework knocks her back out of harm's way!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 190,
+                    "12": 209,
+                    "13": 230,
+                    "14": 253,
+                    "15": 278
+                },
+                "damage": {
+                    "11": 140,
+                    "12": 154,
+                    "13": 169,
+                    "14": 186,
+                    "15": 205
+                }
+            },
+            "mechanics": {
+                "hit_speed": 2.5,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 6,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Knockback"
+            ],
+            "counters": [
+                "Lightning",
+                "Fireball",
+                "Long range"
+            ],
+            "synergies": [
+                "Bait decks",
+                "Cycle decks",
+                "Anti-swarm"
+            ]
+        },
+        {
+            "sc_key": "RamRider",
+            "id": 26000082,
+            "elixir": 5,
+            "type": "Troop",
+            "rarity": "Legendary",
+            "arena": 9,
+            "description": "A fearsome fighter from the frozen wastes who rides a big, bad battle ram that can knock out enemy buildings!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 1380,
+                    "12": 1518,
+                    "13": 1670,
+                    "14": 1837,
+                    "15": 2021
+                },
+                "damage": {
+                    "11": 190,
+                    "12": 209,
+                    "13": 230,
+                    "14": 253,
+                    "15": 278
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.8,
+                "speed": 90,
+                "speed_classification": "Fast",
+                "deploy_time": 1,
+                "range": 4.5,
+                "range_classification": "Ranged",
+                "targets": "Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Building Targeting",
+                "Snare"
+            ],
+            "counters": [
+                "Swarm troops",
+                "Buildings",
+                "Air units"
+            ],
+            "synergies": [
+                "Support troops",
+                "Control",
+                "Bridge spam"
+            ]
+        },
+        {
+            "sc_key": "RuneGiant",
+            "id": 26000083,
+            "elixir": 7,
+            "type": "Troop",
+            "rarity": "Epic",
+            "arena": 15,
+            "description": "A massive stone giant covered in magical runes. Each rune provides protection and when destroyed, the giant becomes more powerful!",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "hitpoints": {
+                    "11": 3200,
+                    "12": 3520,
+                    "13": 3872,
+                    "14": 4259,
+                    "15": 4685
+                },
+                "damage": {
+                    "11": 201,
+                    "12": 221,
+                    "13": 243,
+                    "14": 267,
+                    "15": 294
+                }
+            },
+            "mechanics": {
+                "hit_speed": 1.8,
+                "speed": 45,
+                "speed_classification": "Slow",
+                "deploy_time": 1,
+                "range": 0.8,
+                "range_classification": "Melee: Short",
+                "targets": "Buildings",
+                "count": 1
+            },
+            "special_abilities": [
+                "Building Targeting",
+                "Shield",
+                "Ramping Damage"
+            ],
+            "counters": [
+                "Inferno Tower",
+                "Inferno Dragon",
+                "Swarm troops"
+            ],
+            "synergies": [
+                "Support troops",
+                "Lightning",
+                "Beatdown"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,114 @@
+{
+  "tower_troops": [
+    {
+      "sc_key": "TowerPrincess",
+      "id": 26000080,
+      "elixir": 0,
+      "type": "Tower Troop",
+      "rarity": "Common",
+      "arena": 0,
+      "description": "The default tower troop. Shoots arrows at enemies within range. A classic choice that's reliable and steady.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "has_evolution": false,
+      "combat_stats": {
+        "hitpoints": {"11": 2534, "12": 2787, "13": 3066, "14": 3372, "15": 3709},
+        "damage": {"11": 109, "12": 120, "13": 132, "14": 145, "15": 160}
+      },
+      "mechanics": {
+        "hit_speed": 0.8,
+        "deploy_time": 0,
+        "range": 7.5,
+        "range_classification": "Ranged",
+        "targets": "Air & Ground",
+        "count": 1
+      },
+      "special_abilities": [],
+      "counters": ["Long range troops", "Siege weapons", "Spell damage"],
+      "synergies": ["Balanced gameplay", "Standard defense", "All deck types"]
+    },
+    {
+      "sc_key": "Cannoneer",
+      "id": 26000081,
+      "elixir": 0,
+      "type": "Tower Troop",
+      "rarity": "Common",
+      "arena": 16,
+      "description": "A powerful tower troop that fires cannonballs dealing high damage but cannot target air units.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "has_evolution": false,
+      "combat_stats": {
+        "hitpoints": {"11": 2534, "12": 2787, "13": 3066, "14": 3372, "15": 3709},
+        "damage": {"11": 218, "12": 240, "13": 264, "14": 290, "15": 319}
+      },
+      "mechanics": {
+        "hit_speed": 2.1,
+        "deploy_time": 0,
+        "range": 7.5,
+        "range_classification": "Ranged",
+        "targets": "Ground",
+        "count": 1
+      },
+      "special_abilities": ["High Damage"],
+      "counters": ["Air units", "Swarm troops", "Long range air"],
+      "synergies": ["Anti-ground decks", "Tank killers", "Ground control"]
+    },
+    {
+      "sc_key": "DaggerDuchess",
+      "id": 26000082,
+      "elixir": 0,
+      "type": "Tower Troop",
+      "rarity": "Rare",
+      "arena": 17,
+      "description": "A tower troop that charges up daggers over time. When charged, unleashes a barrage of daggers for massive damage.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "has_evolution": false,
+      "combat_stats": {
+        "hitpoints": {"11": 2534, "12": 2787, "13": 3066, "14": 3372, "15": 3709},
+        "damage": {"11": 87, "12": 96, "13": 105, "14": 116, "15": 127},
+        "barrage_damage": {"11": 522, "12": 574, "13": 631, "14": 694, "15": 763}
+      },
+      "mechanics": {
+        "hit_speed": 1.1,
+        "charge_time": 7,
+        "deploy_time": 0,
+        "range": 7.5,
+        "range_classification": "Ranged",
+        "targets": "Air & Ground",
+        "count": 1
+      },
+      "special_abilities": ["Charge Attack", "Barrage"],
+      "counters": ["Constant pressure", "Swarm troops", "Spell cycling"],
+      "synergies": ["Defensive decks", "Anti-push", "High damage windows"]
+    },
+    {
+      "sc_key": "RoyalChef",
+      "id": 26000083,
+      "elixir": 0,
+      "type": "Tower Troop",
+      "rarity": "Epic",
+      "arena": 18,
+      "description": "A supportive tower troop that throws pancakes to heal and buff friendly troops. Cannot attack enemies directly.",
+      "evolved_spells_sc_key": "",
+      "is_evolved": false,
+      "has_evolution": false,
+      "combat_stats": {
+        "hitpoints": {"11": 2534, "12": 2787, "13": 3066, "14": 3372, "15": 3709},
+        "heal": {"11": 218, "12": 240, "13": 264, "14": 290, "15": 319}
+      },
+      "mechanics": {
+        "hit_speed": 2.5,
+        "deploy_time": 0,
+        "range": 7.5,
+        "range_classification": "Ranged",
+        "targets": "Friendly",
+        "count": 1
+      },
+      "special_abilities": ["Heal", "Troop Buffing", "No Attack"],
+      "counters": ["Spell damage", "Air units", "Long range"],
+      "synergies": ["Defensive troops", "Tank decks", "Support gameplay"]
+    }
+  ]
+}
