@@ -1,0 +1,373 @@
+{
+    "spells": [
+        {
+            "sc_key": "Arrows",
+            "id": 26000024,
+            "elixir": 3,
+            "type": "Spell",
+            "rarity": "Common",
+            "arena": 0,
+            "description": "Arrows pepper a large area, damaging everyone hit. Reduced damage to Crown Towers.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                },
+                "crown_tower_damage": {
+                    "11": 64,
+                    "12": 70,
+                    "13": 77,
+                    "14": 84,
+                    "15": 93
+                }
+            },
+            "mechanics": {
+                "radius": 4,
+                "deploy_time": 1,
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Tower Damage Reduction"
+            ],
+            "counters": [
+                "Minions",
+                "Skeleton Army",
+                "Goblin Gang"
+            ],
+            "synergies": [
+                "Bait decks",
+                "Cycle decks",
+                "Anti-swarm"
+            ]
+        },
+        {
+            "sc_key": "Fireball",
+            "id": 26000025,
+            "elixir": 4,
+            "type": "Spell",
+            "rarity": "Rare",
+            "arena": 0,
+            "description": "Annihilates a small area with a big explosion. Deals high damage and knocks back troops.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "damage": {
+                    "11": 572,
+                    "12": 629,
+                    "13": 692,
+                    "14": 761,
+                    "15": 837
+                },
+                "crown_tower_damage": {
+                    "11": 229,
+                    "12": 252,
+                    "13": 277,
+                    "14": 304,
+                    "15": 335
+                }
+            },
+            "mechanics": {
+                "radius": 2.5,
+                "deploy_time": 1,
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Knockback",
+                "Tower Damage Reduction"
+            ],
+            "counters": [
+                "Wizard",
+                "Musketeer",
+                "Three Musketeers"
+            ],
+            "synergies": [
+                "Beatdown",
+                "Control",
+                "Spell bait"
+            ]
+        },
+        {
+            "sc_key": "Zap",
+            "id": 26000026,
+            "elixir": 2,
+            "type": "Spell",
+            "rarity": "Common",
+            "arena": 5,
+            "description": "Zaps enemies, briefly stunning them and dealing damage. Affects a small area.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": true,
+            "combat_stats": {
+                "damage": {
+                    "11": 159,
+                    "12": 175,
+                    "13": 192,
+                    "14": 211,
+                    "15": 232
+                },
+                "crown_tower_damage": {
+                    "11": 64,
+                    "12": 70,
+                    "13": 77,
+                    "14": 84,
+                    "15": 93
+                }
+            },
+            "mechanics": {
+                "radius": 2.5,
+                "stun_duration": 0.5,
+                "deploy_time": 1,
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Stun",
+                "Reset by Zap",
+                "Tower Damage Reduction"
+            ],
+            "counters": [
+                "Inferno Dragon",
+                "Inferno Tower",
+                "Sparky"
+            ],
+            "synergies": [
+                "Cycle decks",
+                "Reset combos",
+                "Hog Rider"
+            ]
+        },
+        {
+            "sc_key": "Lightning",
+            "id": 26000027,
+            "elixir": 6,
+            "type": "Spell",
+            "rarity": "Epic",
+            "arena": 5,
+            "description": "Strikes the 3 enemies with the highest hitpoints in the target area. Reduced damage to Crown Towers.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "damage": {
+                    "11": 572,
+                    "12": 629,
+                    "13": 692,
+                    "14": 761,
+                    "15": 837
+                },
+                "crown_tower_damage": {
+                    "11": 229,
+                    "12": 252,
+                    "13": 277,
+                    "14": 304,
+                    "15": 335
+                }
+            },
+            "mechanics": {
+                "radius": 3.5,
+                "stun_duration": 0.5,
+                "deploy_time": 1,
+                "targets": "Air & Ground",
+                "target_count": 3,
+                "count": 1
+            },
+            "special_abilities": [
+                "Multi-target",
+                "Stun",
+                "Tower Damage Reduction"
+            ],
+            "counters": [
+                "Three Musketeers",
+                "Elixir Collector",
+                "Buildings"
+            ],
+            "synergies": [
+                "Beatdown",
+                "Heavy spell decks",
+                "Control"
+            ]
+        },
+        {
+            "sc_key": "Rage",
+            "id": 26000028,
+            "elixir": 2,
+            "type": "Spell",
+            "rarity": "Epic",
+            "arena": 6,
+            "description": "Increases troops' movement and attack speed dramatically. Buildings attack faster and summon troops quicker too.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "speed_boost": "35%",
+                "attack_speed_boost": "35%"
+            },
+            "mechanics": {
+                "radius": 5,
+                "duration": 6,
+                "deploy_time": 1,
+                "targets": "Friendly",
+                "count": 1
+            },
+            "special_abilities": [
+                "Speed Boost",
+                "Attack Speed Boost"
+            ],
+            "counters": [
+                "Defensive buildings",
+                "Swarm troops",
+                "Area damage"
+            ],
+            "synergies": [
+                "Lumberjack",
+                "Ebarbs",
+                "Bridge spam"
+            ]
+        },
+        {
+            "sc_key": "Freeze",
+            "id": 26000029,
+            "elixir": 4,
+            "type": "Spell",
+            "rarity": "Epic",
+            "arena": 4,
+            "description": "Freezes troops and buildings, making them unable to move or attack. Everybody chill.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "damage": {
+                    "11": 95,
+                    "12": 105,
+                    "13": 115,
+                    "14": 127,
+                    "15": 139
+                },
+                "crown_tower_damage": {
+                    "11": 38,
+                    "12": 42,
+                    "13": 46,
+                    "14": 51,
+                    "15": 56
+                }
+            },
+            "mechanics": {
+                "radius": 3,
+                "duration": 4,
+                "deploy_time": 1,
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Freeze",
+                "Area Damage",
+                "Tower Damage Reduction"
+            ],
+            "counters": [
+                "Prediction",
+                "Defensive buildings",
+                "Spread out troops"
+            ],
+            "synergies": [
+                "Balloon",
+                "Hog Rider",
+                "Surprise attacks"
+            ]
+        },
+        {
+            "sc_key": "Mirror",
+            "id": 26000030,
+            "elixir": "Variable",
+            "type": "Spell",
+            "rarity": "Epic",
+            "arena": 1,
+            "description": "Mirrors your last card played for +1 Elixir",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "level_boost": "+1",
+                "elixir_cost": "+1"
+            },
+            "mechanics": {
+                "deploy_time": 1,
+                "targets": "None",
+                "count": 1
+            },
+            "special_abilities": [
+                "Clone",
+                "Level Boost"
+            ],
+            "counters": [
+                "Expensive cards",
+                "Poor cycling",
+                "Bad timing"
+            ],
+            "synergies": [
+                "Bait decks",
+                "Surprise factor",
+                "Spell cycling"
+            ]
+        },
+        {
+            "sc_key": "Rocket",
+            "id": 26000031,
+            "elixir": 6,
+            "type": "Spell",
+            "rarity": "Rare",
+            "arena": 3,
+            "description": "Deals high damage to a small area. Looks really awesome doing it. Reduced damage to Crown Towers.",
+            "evolved_spells_sc_key": "",
+            "is_evolved": false,
+            "has_evolution": false,
+            "combat_stats": {
+                "damage": {
+                    "11": 1014,
+                    "12": 1115,
+                    "13": 1226,
+                    "14": 1349,
+                    "15": 1484
+                },
+                "crown_tower_damage": {
+                    "11": 406,
+                    "12": 446,
+                    "13": 490,
+                    "14": 540,
+                    "15": 594
+                }
+            },
+            "mechanics": {
+                "radius": 2,
+                "deploy_time": 4,
+                "targets": "Air & Ground",
+                "count": 1
+            },
+            "special_abilities": [
+                "Area Damage",
+                "Tower Damage Reduction"
+            ],
+            "counters": [
+                "PEKKA",
+                "Golem",
+                "High HP troops"
+            ],
+            "synergies": [
+                "Spell cycle",
+                "Control",
+                "Win condition"
+            ]
+        }
+    ]
+}
