@@ -148,52 +148,43 @@
             ]
         },
         {
-            "sc_key": "Prince",
-            "id": 26000007,
-            "elixir": 5,
+            "sc_key": "MiniPekka",
+            "id": 26000006,
+            "elixir": 4,
             "type": "Troop",
-            "rarity": "Epic",
-            "arena": 0,
-            "description": "Don't let the little pony fool you. Once the Prince gets a running start, you WILL be trampled. Deals double damage once he gets charging.",
+            "rarity": "Rare",
+            "arena": 2,
+            "description": "The arena is a certified butterfly sanctuary. No, wait. It's a Pancake Demolition Factory!",
             "evolved_spells_sc_key": "",
             "is_evolved": false,
             "has_evolution": false,
             "combat_stats": {
                 "hitpoints": {
-                    "11": 1615,
-                    "12": 1777,
-                    "13": 1955,
-                    "14": 2150,
-                    "15": 2365
+                    "11": 1129,
+                    "12": 1242,
+                    "13": 1365,
+                    "14": 1501,
+                    "15": 1651
                 },
                 "damage": {
-                    "11": 307,
-                    "12": 338,
-                    "13": 371,
-                    "14": 408,
-                    "15": 449
-                },
-                "charge_damage": {
-                    "11": 614,
-                    "12": 676,
-                    "13": 742,
-                    "14": 816,
-                    "15": 898
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
                 }
             },
             "mechanics": {
-                "hit_speed": 1.5,
-                "speed": 60,
-                "speed_classification": "Medium",
+                "hit_speed": 1.8,
+                "speed": 90,
+                "speed_classification": "Fast",
                 "deploy_time": 1,
-                "range": 1.6,
-                "range_classification": "Melee: Long",
+                "range": 0.8,
+                "range_classification": "Melee: Short",
                 "targets": "Ground",
                 "count": 1
             },
-            "special_abilities": [
-                "Charge Attack"
-            ],
+            "special_abilities": [],
             "counters": [
                 "Swarm troops",
                 "Air units",
@@ -201,59 +192,57 @@
             ],
             "synergies": [
                 "Support troops",
-                "Dark Prince",
+                "Counter push",
                 "Bridge spam"
             ]
         },
         {
-            "sc_key": "Valkyrie",
-            "id": 26000012,
+            "sc_key": "Musketeer",
+            "id": 26000010,
             "elixir": 4,
             "type": "Troop",
             "rarity": "Rare",
-            "arena": 1,
-            "description": "Tough melee fighter, deals area damage around her. Swinging that battle axe in a circle, she can wipe out a pile of enemies!",
+            "arena": 3,
+            "description": "Don't be fooled by her delicately coiffed hair, the Musketeer is a mean shot with her trusty boomstick.",
             "evolved_spells_sc_key": "",
             "is_evolved": false,
             "has_evolution": true,
             "combat_stats": {
                 "hitpoints": {
-                    "11": 1344,
-                    "12": 1478,
-                    "13": 1626,
-                    "14": 1789,
-                    "15": 1968
+                    "11": 598,
+                    "12": 658,
+                    "13": 723,
+                    "14": 795,
+                    "15": 875
                 },
                 "damage": {
-                    "11": 159,
-                    "12": 175,
-                    "13": 192,
-                    "14": 211,
-                    "15": 232
+                    "11": 168,
+                    "12": 185,
+                    "13": 203,
+                    "14": 223,
+                    "15": 246
                 }
             },
             "mechanics": {
-                "hit_speed": 1.5,
+                "hit_speed": 1.1,
                 "speed": 60,
                 "speed_classification": "Medium",
                 "deploy_time": 1,
-                "range": 0.8,
-                "range_classification": "Melee: Short",
-                "targets": "Ground",
+                "range": 6,
+                "range_classification": "Ranged",
+                "targets": "Air & Ground",
                 "count": 1
             },
-            "special_abilities": [
-                "Area Damage"
-            ],
+            "special_abilities": [],
             "counters": [
-                "Air units",
-                "High DPS troops",
-                "Buildings"
+                "Lightning",
+                "Fireball",
+                "High DPS troops"
             ],
             "synergies": [
-                "Support troops",
                 "Tanks",
-                "Anti-swarm"
+                "Hog Rider",
+                "Three Musketeers"
             ]
         },
         {
@@ -357,69 +346,54 @@
             ]
         },
         {
-            "sc_key": "Witch",
-            "id": 26000049,
-            "elixir": 5,
+            "sc_key": "Minions",
+            "id": 26000046,
+            "elixir": 3,
             "type": "Troop",
-            "rarity": "Epic",
-            "arena": 0,
-            "description": "Summons Skeletons, shoots destructive skulls from the sky and has glorious flowing hair. When she's destroyed, she damages and slows nearby enemies!",
+            "rarity": "Common",
+            "arena": 4,
+            "description": "Three fast, unarmored flying attackers. Roses are red, Minions are blue, they can fly, and will crush you!",
             "evolved_spells_sc_key": "",
             "is_evolved": false,
-            "has_evolution": true,
+            "has_evolution": false,
             "combat_stats": {
                 "hitpoints": {
-                    "11": 598,
-                    "12": 658,
-                    "13": 723,
-                    "14": 795,
-                    "15": 875
+                    "11": 190,
+                    "12": 209,
+                    "13": 230,
+                    "14": 253,
+                    "15": 278
                 },
                 "damage": {
-                    "11": 78,
-                    "12": 86,
-                    "13": 94,
-                    "14": 103,
-                    "15": 114
-                },
-                "death_damage": {
-                    "11": 159,
-                    "12": 175,
-                    "13": 192,
-                    "14": 211,
-                    "15": 232
+                    "11": 105,
+                    "12": 115,
+                    "13": 127,
+                    "14": 140,
+                    "15": 154
                 }
             },
             "mechanics": {
-                "hit_speed": 0.7,
-                "speed": 60,
-                "speed_classification": "Medium",
+                "hit_speed": 1.1,
+                "speed": 90,
+                "speed_classification": "Fast",
                 "deploy_time": 1,
-                "range": 5.5,
+                "range": 2,
                 "range_classification": "Ranged",
                 "targets": "Air & Ground",
-                "count": 1
-            },
-            "spawner_info": {
-                "troop_spawned": "Skeletons",
-                "spawn_speed": 7.5,
-                "spawn_count": 4,
-                "death_spawn": 4
+                "count": 3
             },
             "special_abilities": [
-                "Spawns Troops",
-                "Death Damage",
-                "Death Spawn"
+                "Flying"
             ],
             "counters": [
-                "Lightning",
-                "Poison",
-                "Fireball"
+                "Arrows",
+                "Zap",
+                "Princess"
             ],
             "synergies": [
-                "Tanks",
-                "Graveyard",
-                "Beatdown"
+                "Lava Hound",
+                "Anti-air",
+                "Cheap cycle"
             ]
         }
     ],
@@ -519,41 +493,6 @@
                 "Beatdown",
                 "Control",
                 "Spell bait"
-            ]
-        },
-        {
-            "sc_key": "Mirror",
-            "id": 26000030,
-            "elixir": "Variable",
-            "type": "Spell",
-            "rarity": "Epic",
-            "arena": 1,
-            "description": "Mirrors your last card played for +1 Elixir",
-            "evolved_spells_sc_key": "",
-            "is_evolved": false,
-            "has_evolution": false,
-            "combat_stats": {
-                "level_boost": "+1",
-                "elixir_cost": "+1"
-            },
-            "mechanics": {
-                "deploy_time": 1,
-                "targets": "None",
-                "count": 1
-            },
-            "special_abilities": [
-                "Clone",
-                "Level Boost"
-            ],
-            "counters": [
-                "Expensive cards",
-                "Poor cycling",
-                "Bad timing"
-            ],
-            "synergies": [
-                "Bait decks",
-                "Surprise factor",
-                "Spell cycling"
             ]
         }
     ],
