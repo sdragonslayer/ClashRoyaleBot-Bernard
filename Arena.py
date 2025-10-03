@@ -1,3 +1,6 @@
+from cards import *
+import json
+
 class Arena:
     def __init__(self, rows=32, cols=18):
         """
@@ -7,6 +10,10 @@ class Arena:
         self.cols = cols
         # Initialize the board as placeable for everything everywhere
         self.board = [[0 for _ in range(self.cols)] for _ in range(self.rows)]
+        
+        #gets our cards list 
+        with open('cards.json', 'r') as clash:
+            self.cards = json.load(clash)
         
         # Call private methods to set up restricted areas
         self._set_unplaceable_tiles()
@@ -47,7 +54,7 @@ class Arena:
         for i in range(self.cols):
             self.board[15][i] = 1
             self.board[16][i] = 1
-
+    
     def display(self):
         """Prints a string representation of the board to the console."""
         for row in self.board:
@@ -56,8 +63,9 @@ class Arena:
 
 if __name__ == "__main__":
     game_arena = Arena()
+    game_arena.display()
 
-    
+
     # Enemy unit inputs
     # First Number = Unit Type
     #   0 = Troop
@@ -69,7 +77,7 @@ if __name__ == "__main__":
     # EX : 1 2 2 
     # This would get the information to initalize a building in the tile 2 , 2
     # Later on when we make classes for each unit we will replace the first input with the unit name
+    
     loc = str(input())
-
     lcsplit = loc.split(" ")
 
