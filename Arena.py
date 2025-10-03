@@ -1,70 +1,75 @@
-# This initializes the matrix as placeable for everything everywhere
+class Arena:
+    def __init__(self, rows=32, cols=18):
+        """
+        Initializes the Arena by setting up the board with all its rules.
+        """
+        self.rows = rows
+        self.cols = cols
+        # Initialize the board as placeable for everything everywhere
+        self.board = [[0 for _ in range(self.cols)] for _ in range(self.rows)]
+        
+        # Call private methods to set up restricted areas
+        self._set_unplaceable_tiles()
+        self._set_spell_only_tiles()
 
-rows = 32
-col = 18
-zeros_matrix = [[0 for _ in range(col)] for _ in range(rows)]
+    def _set_unplaceable_tiles(self):
+        """Sets the areas on the board that are completely unplaceable (value 2)."""
+        # This is setting the areas on the far sides next to the king tower
+        for i in range(0, 6):
+            self.board[0][i] = 2
+            self.board[31][i] = 2
+            self.board[0][17 - i] = 2
+            self.board[31][17 - i] = 2
 
-# Key for making the arena 
-# 0: placeable for everything
-# 1: only spells placeable 
-# 2: unplaceable at all
+    def _set_spell_only_tiles(self):
+        """Sets the areas where only spells can be placed (value 1)."""
+        # This sets the king towers as unplaceable for troops
+        for i in range(4):
+            for k in range(4):
+                self.board[1 + k][7 + i] = 1
+                self.board[27 + k][7 + i] = 1
 
-#initalizing unplaceable places for different troop types 
+        # This sets the princess towers as unplaceable for troops
+        for i in range(3):
+            for k in range(3):
+                self.board[5 + k][2 + i] = 1
+                self.board[24 + k][2 + i] = 1
+                self.board[5 + k][13 + i] = 1
+                self.board[24 + k][13 + i] = 1
 
-# This is setting the areas on the rows next to the king tower as unplaceable
-for i in range(0, 6):
-    zeros_matrix[0][i] = 2
-    zeros_matrix[31][i] =  2
-    zeros_matrix[0][17-i] = 2
-    zeros_matrix[31][17-i] = 2
+        # This sets the tile in the corner next to the bridge as unplaceable for troops
+        self.board[14][0] = 1
+        self.board[17][0] = 1
+        self.board[14][17] = 1
+        self.board[17][17] = 1
 
-# initalializing only spells 
+        # This sets the bridge as unplaceable for troops
+        for i in range(self.cols):
+            self.board[15][i] = 1
+            self.board[16][i] = 1
 
-# This is setting the king towers as unplaceable for troops
-for i in range(4):
-    for k in range(4):
-        zeros_matrix[1+k][7+i] = 1
-        zeros_matrix[27+k][7+i] = 1
+    def display(self):
+        """Prints a string representation of the board to the console."""
+        for row in self.board:
+            print(" ".join(map(str, row)))
+            
 
-# This sets the princess towers as unplaceable for troops
-for i in range(3):
-    for k in range(3):
-        zeros_matrix[5+k][2+i] = 1
-        zeros_matrix[24+k][2+i] = 1
-        zeros_matrix[5+k][13+i] = 1
-        zeros_matrix[24+k][13+i] = 1
+if __name__ == "__main__":
+    game_arena = Arena()
 
-# This sets the tile in the corner next to the bridge as unplaceable for troops
-zeros_matrix[14][0] = 1
-zeros_matrix[17][0] = 1
-zeros_matrix[14][17] = 1
-zeros_matrix[17][17] = 1 
+    
+    # Enemy unit inputs
+    # First Number = Unit Type
+    #   0 = Troop
+    #   00 = Flying Troop
+    #   1 = Building
+    #   2 = Spell
+    # Second Number  = Row Index
+    # Third Number = Column Index
+    # EX : 1 2 2 
+    # This would get the information to initalize a building in the tile 2 , 2
+    # Later on when we make classes for each unit we will replace the first input with the unit name
+    loc = str(input())
 
-# This sets the bridge as unplaceable for troops
-for i in range(18):
-    zeros_matrix[15][i] = 1
-    zeros_matrix[16][i] = 1
-
-
-
-# Enemy unit inputs
-# First Number = Unit Type
-#   0 = Troop
-#   1 = Building
-#   2 = Spell
-# Second Number  = Row Index
-# Third Number = Column Index
-# EX : 1 2 2 
-# This would get the information to initalize a building in the tile 2 , 2
-# Later on when we make classes for each unit we will replace the first input with the unit name
-loc = str(input())
-
-lcsplit = loc.split(" ")
-
-if((zeros_matrix[int(lcsplit[1])][int(lcsplit[2])] == 0) and (lcsplit[0] == '0' or lcsplit[0] == '1')):
-    print("success")
-else:
-    print("invalid placement")
-
-print(zeros_matrix)
+    lcsplit = loc.split(" ")
 
