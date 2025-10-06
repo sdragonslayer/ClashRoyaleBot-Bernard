@@ -54,11 +54,38 @@ class Arena:
         for i in range(self.cols):
             self.board[15][i] = 1
             self.board[16][i] = 1
-    
+
+    #checks for valid placement 
+    def check_valid_placement(self, troop_type, row, col):
+        if (troop_type == 3):
+            if(self.board[row][col] == 1 or self.board[row][col] == 0):
+                return True
+            return False
+        else:
+            if(self.board[row][col] == 0):
+                return True
+            return False
+        
+    #simple movement
+    #takes in speed (tiles/sec), input coords
+    #ground trooops time to bridge, flying troops time to princess tower 
+    #assume input coords are on our side
+    def simple_movement(self, type, speed, row_i, col_i):
+
+        self.check_valid_placement(type, row_i, col_i)
+
+        distance = ((row_i - row_f) ** 2 + (col_i-col_f) **2) ** (1/2)
+
+        time = distance/speed
+
+        return time 
+
+    #display the board
     def display(self):
         """Prints a string representation of the board to the console."""
         for row in self.board:
             print(" ".join(map(str, row)))
+    
             
 
 if __name__ == "__main__":
@@ -67,17 +94,16 @@ if __name__ == "__main__":
 
 
     # Enemy unit inputs
+    # First String = Troop name
     # First Number = Unit Type
     #   0 = Troop
-    #   00 = Flying Troop
-    #   1 = Building
-    #   2 = Spell
+    #   1 = Flying Troop
+    #   2 = Building
+    #   3 = Spell
     # Second Number  = Row Index
     # Third Number = Column Index
-    # EX : 1 2 2 
+    # EX : knight 0 2 2 
     # This would get the information to initalize a building in the tile 2 , 2
-    # Later on when we make classes for each unit we will replace the first input with the unit name
-    
     loc = str(input())
-    lcsplit = loc.split(" ")
+    name, type, row, col = loc.split(" ")
 
