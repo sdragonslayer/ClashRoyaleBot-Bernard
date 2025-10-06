@@ -57,6 +57,8 @@ class Arena:
 
     #checks for valid placement 
     def check_valid_placement(self, troop_type, row, col):
+        row = int(row)
+        col = int(col)
         if (troop_type == 3):
             if(self.board[row][col] == 1 or self.board[row][col] == 0):
                 return True
@@ -65,17 +67,55 @@ class Arena:
             if(self.board[row][col] == 0):
                 return True
             return False
-        
+    
+
     #simple movement
-    #takes in speed (tiles/sec), input coords
+    #takes in speed, input coords (starting from 0)
     #ground trooops time to bridge, flying troops time to princess tower 
     #assume input coords are on our side
+
+    #returns the time to move
     def simple_movement(self, type, speed, row_i, col_i):
+        row_i = int(row_i)
+        col_i = int(col_i)
+        speed = speed / 60
 
-        self.check_valid_placement(type, row_i, col_i)
+        if (not (self.check_valid_placement(type, row_i, col_i))):
+            return "Invalid Placement"
+        
+        #flying troops, determining which tower to go to
+        if (type == 1):
+            distance_left = ((row_i - 6) ** 2 + (col_i-3) **2) ** (1/2)
+            distance_right = ((row_i - 6) ** 2 + (col_i-14) **2) ** (1/2)
+            if (distance_left>distance_right):
+                return distance_right / speed 
+            else:
+                return distance_left / speed
+        
+        #logic to find distance for troops placed behing princess towers 
+        if(row_i > 26):
+            #distance to corners 
+            first_corner = ((row_i - 26) ** 2 + (col_i-2) **2) ** (1/2)
+            second_corner = ((row_i - 26) ** 2 + (col_i-4) **2) ** (1/2)
+            third_corner = ((row_i - 26) ** 2 + (col_i-13) **2) ** (1/2)
+            fourth_corner = ((row_i - 26) ** 2 + (col_i-15) **2) ** (1/2)
+            
+            dist = min(first_corner, second_corner, third_corner, fourth_corner)
+            print(dist)
+            #distance from corner to closest princess
+            dist1 = dist + ((row_i - 6) ** 2 + (col_i-3) **2) ** (1/2)
+            dist2 = dist + ((row_i - 6) ** 2 + (col_i-14) **2) ** (1/2)
+            
+            distance = min(dist1, dist2)
 
-        distance = ((row_i - row_f) ** 2 + (col_i-col_f) **2) ** (1/2)
+            return distance / speed
 
+        dist1 = ((row_i - 6) ** 2 + (col_i-3) **2) ** (1/2)
+        dist2 = ((row_i - 6) ** 2 + (col_i-14) **2) ** (1/2)   
+
+        distance = min(dist1, dist2)
+        print(distance)
+        
         time = distance/speed
 
         return time 
@@ -107,3 +147,4 @@ if __name__ == "__main__":
     loc = str(input())
     name, type, row, col = loc.split(" ")
 
+    print(game_arena.simple_movement(type, 60, row, col))
