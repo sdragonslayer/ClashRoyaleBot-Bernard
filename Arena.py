@@ -20,7 +20,6 @@ class Arena:
         self._set_spell_only_tiles()
 
     def _set_unplaceable_tiles(self):
-        """Sets the areas on the board that are completely unplaceable (value 2)."""
         # This is setting the areas on the far sides next to the king tower
         for i in range(0, 6):
             self.board[0][i] = 2
@@ -29,7 +28,6 @@ class Arena:
             self.board[31][17 - i] = 2
 
     def _set_spell_only_tiles(self):
-        """Sets the areas where only spells can be placed (value 1)."""
         # This sets the king towers as unplaceable for troops
         for i in range(4):
             for k in range(4):
@@ -110,11 +108,11 @@ class Arena:
 
             return distance / speed
 
+        # troop placed in a row after princess tower
         dist1 = ((row_i - 6) ** 2 + (col_i-3) **2) ** (1/2)
         dist2 = ((row_i - 6) ** 2 + (col_i-14) **2) ** (1/2)   
 
         distance = min(dist1, dist2)
-        print(distance)
         
         time = distance/speed
 
@@ -147,4 +145,5 @@ if __name__ == "__main__":
     loc = str(input())
     name, type, row, col = loc.split(" ")
 
+    # testing the simple  movement function 
     print(game_arena.simple_movement(type, 60, row, col))
