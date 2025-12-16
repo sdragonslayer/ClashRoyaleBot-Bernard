@@ -29,7 +29,7 @@
             },
             "mechanics": {
                 "hit_speed": 1.2,
-                "speed": 60,
+                "speed": 82.2,
                 "speed_classification": "Medium",
                 "deploy_time": 1,
                 "range": 0.8,
@@ -78,7 +78,7 @@
             },
             "mechanics": {
                 "hit_speed": 1.2,
-                "speed": 60,
+                "speed": 68.4,
                 "speed_classification": "Medium",
                 "deploy_time": 1,
                 "range": 5.5,
@@ -127,7 +127,7 @@
             },
             "mechanics": {
                 "hit_speed": 1.1,
-                "speed": 90,
+                "speed": 144,
                 "speed_classification": "Fast",
                 "deploy_time": 1,
                 "range": 0.8,
@@ -176,7 +176,7 @@
             },
             "mechanics": {
                 "hit_speed": 1.8,
-                "speed": 90,
+                "speed": 106.2,
                 "speed_classification": "Fast",
                 "deploy_time": 1,
                 "range": 0.8,
@@ -225,7 +225,7 @@
             },
             "mechanics": {
                 "hit_speed": 1.1,
-                "speed": 60,
+                "speed": 72,
                 "speed_classification": "Medium",
                 "deploy_time": 1,
                 "range": 6,
@@ -274,7 +274,7 @@
             },
             "mechanics": {
                 "hit_speed": 1.5,
-                "speed": 45,
+                "speed": 55.2,
                 "speed_classification": "Slow",
                 "deploy_time": 1,
                 "range": 0.8,
@@ -325,7 +325,7 @@
             },
             "mechanics": {
                 "hit_speed": 1.3,
-                "speed": 60,
+                "speed": 143.4,
                 "speed_classification": "Medium",
                 "deploy_time": 1,
                 "range": 5,
@@ -374,7 +374,7 @@
             },
             "mechanics": {
                 "hit_speed": 1.1,
-                "speed": 90,
+                "speed": 87,
                 "speed_classification": "Fast",
                 "deploy_time": 1,
                 "range": 2,
